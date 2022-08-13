@@ -1,0 +1,1220 @@
+#wrap-content {
+    background: #F4F4F4;
+    padding: 0px 50px;
+}
+
+.bar_address {
+    padding-top: 36px;
+    padding-bottom: 40px;
+}
+
+.bar_address span a {
+    font-weight: 500;
+}
+
+.bar_address .active {
+    color: #1C1D20;
+    font-weight: 500;
+}
+
+
+/*  =========Nội dung ============== */
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    display: flex;
+}
+
+.wrap_person_potential_box .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#wr-content {
+    display: grid;
+    /* grid-template-columns: 36% 36% 28%; */
+    grid-gap: 0px 18px;
+    grid-template-columns: auto auto 30%;
+}
+
+.box-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.box-2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 9;
+}
+
+#box-3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#box-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.box-1 {
+    display: flex;
+    background: #FFFFFF;
+    /* flex-basis: 72%; */
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 110%;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.star_hot {
+    position: absolute;
+    top: 11px;
+    right: 33px;
+    background: none;
+    border: none;
+}
+
+.info .option {
+    position: absolute;
+    right: 82px;
+    top: 10px;
+    background: none;
+    border: none
+}
+
+.info .information {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(25, 118, 210, 0.45);
+    border-radius: 20px;
+    position: absolute;
+    top: 45px;
+    right: 92px;
+}
+
+.info .information a {
+    padding: 7px 10px;
+}
+
+.wrap-job {
+    display: flex;
+}
+
+.job_detail {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1px;
+    padding-left: 16px;
+}
+
+.job_detail span {
+    background: #EFEFEF;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1976D2;
+    padding: 4px 9px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 30px auto;
+    grid: 8px 8px;
+}
+
+.box-1 .done .ung-tuyen {
+    background: #FFAE28;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 24px;
+    right: 21px;
+    padding: 6px 22px;
+    border: none;
+}
+
+.box-1 .done .ung-tuyen span {
+    padding-left: 7px;
+    background: none;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    /* FFFFFF */
+    color: #FFFFFF;
+}
+
+.box-1 .done .da-ung-tuyen {
+    background: #0DABB6;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 24px;
+    right: 21px;
+    padding: 6px 14px;
+    border: none;
+}
+
+.box-2 .ung-tuyen .done .da-ung-tuyen {
+    background: #0DABB6;
+}
+
+.box-1 .done .da-ung-tuyen span {
+    padding-left: 7px;
+    background: none;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    /* FFFFFF */
+    color: #FFFFFF;
+}
+
+.image p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* 1C1D20 */
+    color: #1C1D20;
+    padding-top: 10px;
+}
+
+.box-1 .image .border_radius {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1976D2;
+    border-radius: 999em;
+    overflow: hidden;
+}
+
+.box-1 .image .border_radius img {
+    max-width: 205px;
+    min-width: 205px;
+    max-height: 205px;
+}
+
+.box-1 .info {
+    padding-left: 35px;
+}
+
+.info .name_jd {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1C1D20;
+    margin-bottom: 10px;
+}
+
+.info .wrap-job .name_job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C1D20;
+}
+
+.info .date,
+.money,
+.exp_info,
+.teacher,
+.address,
+.day_started,
+.day_ended,
+.exp,
+.job_gt {
+    margin: 10px 0px;
+}
+
+.info .date p,
+.money .from_to p,
+.exp_info p,
+.teacher p,
+.address p,
+.day_started p,
+.day_ended p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.img_add,
+.img_money,
+.img_exp,
+.img_job_gt {
+    margin-right: 5px;
+}
+
+.money .from_to .text-danger {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.info .date p span,
+.exp_info p span,
+.teacher p span {
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C1D20;
+}
+
+.location p,
+.address p span,
+.day_started span,
+.day_ended p span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+/* Box-2 */
+
+.box-2 {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px 70px 22px 30px;
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.calendar,
+.yeu_cau_cong_viec,
+.mo_ta_cong_viec,
+.quyen_loi {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 30px auto auto;
+}
+
+.calendar-1,
+.yeu_cau_cong_viec-1,
+.mo_ta_cong_viec-1,
+.quyen_loi-1 {
+    grid-row-start: span 1;
+    grid-column-start: span 1;
+}
+
+.calendar-2,
+.yeu_cau_cong_viec-2,
+.mo_ta_cong_viec-2,
+.quyen_loi-2 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    padding-left: 13px;
+}
+
+.calendar-3,
+.yeu_cau_cong_viec-3,
+.mo_ta_cong_viec-3,
+.quyen_loi-3 {
+    grid-row-start: 2;
+    grid-column-start: span 3;
+    padding-left: 42px;
+    padding-top: 15px;
+}
+
+.calendar .title,
+.mo_ta_cong_viec-2,
+.yeu_cau_cong_viec-2,
+.quyen_loi-2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1976D2;
+    margin-top: 5px;
+}
+
+.mo_ta_cong_viec-3,
+.yeu_cau_cong_viec-3,
+.quyen_loi-3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    /* or 22px */
+    text-align: justify;
+    color: #000000;
+}
+
+.work_day {
+    border-bottom: 1px dashed #000000;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    margin-bottom: 14px;
+}
+
+.grid-2 .chose,
+.time_work {
+    margin-top: 5px;
+}
+
+.grid-2 .radius {
+    margin-left: 20px;
+}
+
+.work_day .day .grid-2 .active span {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_day .day .grid-2 .non_active span {
+    width: 32px;
+    height: 32px;
+    background: #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_day .day .grid-2 .active span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    /* Màu chính */
+    color: #1976D2;
+}
+
+.work_day .day .grid-2 .non_active span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    /* 666666 */
+    color: #666666;
+}
+
+.time_work {
+    margin-top: 5px;
+}
+
+.time_work p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: justify;
+    /* 1C1D20 */
+    color: #1C1D20;
+    padding-top: 5px;
+}
+
+.time_no_work {
+    margin-top: 5px;
+}
+
+.time_no_work p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: right;
+    /* 666666 */
+    color: #666666;
+}
+
+.grid-2 .boder-circle {
+    width: 22px;
+    height: 22px;
+    background: #FFFFFF;
+    /* C4C4C4 */
+    border: 1.5px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.box-2 .ung-tuyen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.box-2 .ung-tuyen .wrap_ung_tuyen {
+    background: #FFAE28;
+    border-radius: 20px;
+    padding: 10px 40px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.box-2 .ung-tuyen .wrap_ung_tuyen span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* FFFFFF */
+    color: #FFFFFF;
+}
+
+
+/* =========================== */
+
+.slick-slide img {
+    /* display: block; */
+    max-width: none;
+}
+
+#box-3 {
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 0px 15px 24px 15px;
+}
+
+#box-3 .contact-title {
+    text-align: center;
+    padding: 9px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1976D2;
+    border-bottom: 1px solid rgba(25, 118, 210, 0.55);
+}
+
+#box-3 .contact {
+    padding-left: 30px;
+    padding-top: 13px;
+}
+
+#box-3 .contact .recruit img,
+#box-3 .contact .mail img,
+#box-3 .contact .phone img {
+    object-fit: fill;
+}
+
+#box-3 .contact .recruit .recruiter,
+#box-3 .contact .mail .email,
+#box-3 .contact .phone .sdt {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    color: #000000;
+    padding: 0px 5px;
+}
+
+#box-3 .contact .recruit .name_recruiter {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: justify;
+    /* FFAE28 */
+    color: #FFAE28;
+}
+
+#box-3 .contact .mail {
+    padding: 13px 0px;
+}
+
+#box-3 .contact .mail .name_email,
+#box-3 .contact .phone .number_phone {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    /* 666666 */
+    color: #666666;
+}
+
+#box-3 .see_detail {
+    width: 100%;
+    background: #1976D2;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 6px 0px;
+    margin-top: 20px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#box-3 button.active {
+    background: #FFAE28;
+}
+
+#box-3 .mail .active {
+    color: #FFAE28 !important;
+}
+
+#box-3 .phone .active {
+    color: #FFAE28 !important;
+}
+
+
+/* =================================== */
+
+#box-4 {
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 22px 0px 21px 15px;
+}
+
+.siderbar-search {
+    position: relative;
+    width: 100%;
+}
+
+.siderbar-search img {
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.siderbar-search span {
+    border: none;
+    width: 100%;
+    padding-left: 35px;
+    padding-bottom: 17px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #1976D2;
+    text-align: left;
+}
+
+.list-item-search button,
+.list-item-keywords button {
+    border: none;
+    background: none;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* 4073AF - Màu chính */
+    color: #4073AF;
+}
+
+.list-item-keywords {
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 16px;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+
+/* ================================================= */
+
+.slick-prev-tag,
+.slick-next-tag {
+    background: none;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    top: 0;
+}
+
+.slick-prev-tag {
+    left: -14px;
+}
+
+.slick-next-tag {
+    right: -14px;
+}
+
+.person_potential {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px 55px 26px 55px;
+}
+
+.person_potential .person_potential_parent .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+    /* or 26px */
+    text-align: center;
+    color: #1976D2;
+    padding-bottom: 37px;
+}
+
+.wrap_person_potential_box {
+    position: relative;
+}
+
+.img_star button {
+    position: absolute;
+    top: 8px;
+    right: 44px;
+    border: none;
+    background: none;
+}
+
+.person_potential_child_image .round {
+    height: 65px;
+    width: 65px;
+    border: 1px solid #1976D2;
+    border-radius: 999em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.person_potential_child_image .round img {
+    max-height: 65px;
+    max-width: 65px;
+}
+
+.img_star img {
+    width: 32px;
+    height: 31px;
+}
+
+.slick_slider_recruit .block {
+    border: 1px solid rgba(25, 118, 210, 0.55);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px 15px 12px 22px;
+    margin: 0px 15px;
+}
+
+.block .info_detail .address img,
+.block .info_detail .money img,
+.block .info_detail .exp img,
+.block .info_detail .job_gt img {
+    object-fit: fill;
+    display: flex;
+    align-self: flex-start;
+    margin-top: 2px
+}
+
+.block .info_detail .address span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.block .info_detail .money .from_to span {
+    font-size: 16px;
+    line-height: 16px;
+    text-align: justify;
+    /* FF0000 */
+    color: #FF0000;
+}
+
+.block .info_detail .exp span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.block .info_detail .job_gt span {
+    background: #EFEFEF;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    color: #1976D2;
+    padding: 4px 9px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+.person_potential_child_image {
+    padding-right: 8px;
+}
+
+.info_detail {
+    padding-right: 18px;
+}
+
+.info_detail .address img,
+.info_detail .money img,
+.info_detail .job_gt img,
+.info_detail .exp img {
+    padding-right: 9px;
+}
+
+.block .name {
+    display: block;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.block .name a {
+    color: #1976D2;
+}
+
+.see_detail_person_potential {
+    text-align: right;
+}
+
+.see_detail_person_potential a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* FFAE28 */
+    color: #FFAE28;
+}
+
+.block:hover {
+    background: rgba(25, 118, 210, 0.55);
+    border-radius: 10px;
+}
+
+.block:hover .person_potential_child_image .round {
+    background: #FFFFFF;
+    /* FFAE28 */
+    border: 1px solid #FFAE28;
+    box-sizing: border-box;
+}
+
+.block:hover .info_detail .name a,
+.block:hover .info_detail .address span,
+.block:hover .info_detail .money span,
+.block:hover .info_detail .money .from_to p,
+.block:hover .see_detail_person_potential a,
+.block:hover .info_detail .exp span {
+    color: #FFFFFF;
+}
+
+
+/* ================================================================================== */
+
+
+/* ================================================================================== */
+
+
+/* MÀN 1520 */
+
+@media (min-width:1520px) {
+    #wrap-content {
+        padding: 0px 127px;
+    }
+    .main_content {
+        padding: 0 0;
+    }
+    .slug_none_2 {
+        display: none;
+    }
+    .bar_address {
+        padding: 30px 0px;
+    }
+    .result_search {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 149%;
+        /* or 27px */
+        text-align: center;
+        letter-spacing: 1.25px;
+        /* 1C1D20 */
+        color: #1C1D20;
+    }
+    .result_search strong {
+        font-size: 20px;
+    }
+    .item_parent {
+        margin-left: 78px;
+        margin-right: 78px;
+    }
+    .list-item-keywords button {
+        text-align: left;
+    }
+    .info .information {
+        display: none;
+    }
+}
+
+
+/* ================================================================================== */
+
+
+/* MÀN 1024 */
+
+@media (max-width:1365px) {
+    #wrap-content {
+        padding: 0px 40px;
+    }
+    .box-1 {
+        padding-left: 14px;
+        padding-right: 19px;
+    }
+    .box-1 .image .border_radius {
+        height: 130px;
+        width: 130px;
+    }
+    .box-1 .image .border_radius img {
+        max-width: 135px;
+        min-width: 135px;
+        max-height: 135px;
+    }
+    .box-1 .info {
+        padding-left: 13px;
+    }
+    .info .name_jd {
+        font-size: 20px;
+        line-height: 23px;
+        padding-right: 70px;
+    }
+    .grid-2 {
+        grid-template-columns: 23px auto;
+    }
+    .job_detail {
+        padding-left: 5px;
+    }
+    #box-3 .contact {
+        padding-left: 0px;
+    }
+    .siderbar-search span {
+        font-size: 17px;
+    }
+    .list-item-search button,
+    .list-item-keywords button {
+        font-size: 12px;
+    }
+    /*  */
+    .person_potential {
+        width: 100%;
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding: 20px 35px 26px 35px;
+    }
+    .slick_slider_recruit .block {
+        margin: 0px 5px;
+        padding: 20px 15px 12px 11px;
+    }
+    .img_star button {
+        right: 18px;
+    }
+    .block .name {
+        display: block;
+        padding-right: 10px;
+        font-size: 16px;
+    }
+    .info_detail {
+        padding-right: 0px;
+    }
+    .block .info_detail .address span,
+    .block .info_detail .money .from_to span,
+    .block .info_detail .exp span,
+    .block .info_detail .job_gt span {
+        font-size: 14px;
+    }
+    .img_star button {
+        width: 21px;
+        height: 21px;
+    }
+}
+
+
+/* ================================================================================== */
+
+
+/* MÀN 768 */
+
+@media (max-width :1023px) {
+    .box-1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #box-3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #box-4 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        padding: 22px 8px 21px 8px;
+    }
+    #wrap-content {
+        padding: 0px 24px;
+    }
+    #wr-content {
+        grid-gap: 0px 10px;
+    }
+    .box-2 {
+        padding: 29px 17px 22px 17px;
+    }
+    #box-3 .contact .recruit {
+        display: none;
+    }
+    #box-3 .contact .mail {
+        padding: 0px 0px 13px 0px;
+    }
+    #box-3 .contact .mail .name_email,
+    #box-3 .contact .phone .number_phone,
+    #box-3 .contact .recruit .recruiter,
+    #box-3 .contact .mail .email,
+    #box-3 .contact .phone .sdt,
+    #box-3 .see_detail {
+        font-size: 13px;
+    }
+    .list-item-keywords {
+        padding: 3px 4px;
+        font-size: 12px;
+    }
+    .list-item-search button,
+    .list-item-keywords button {
+        font-size: 12px;
+    }
+    .person_potential {
+        padding: 20px 10px 26px 10px;
+    }
+    .person_potential_child_image .round {
+        height: 50px;
+        width: 50px;
+    }
+    .person_potential_child_image .round img {
+        max-height: 50px;
+        max-width: 50px;
+    }
+    .slick-prev-tag {
+        left: -10px;
+        width: 26px;
+        /* height: 26px; */
+    }
+    .slick-next-tag {
+        right: -10px;
+        width: 26px;
+    }
+    .slick_slider_recruit .block {
+        margin: 0px 5px;
+        padding: 10px 5px 12px 11px;
+    }
+    .block .info_detail .name a {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .person_potential .person_potential_parent .title {
+        padding-bottom: 20px;
+    }
+    .img_star button {
+        width: 21px;
+        height: 31px;
+    }
+    .person_potential_child_image {
+        padding-right: 4px;
+    }
+    .block .info_detail .address span,
+    .block .info_detail .money .from_to span,
+    .block .info_detail .exp span,
+    .block .info_detail .job_gt span,
+    .see_detail_person_potential a {
+        font-size: 12px;
+    }
+    .address span,
+    .money .from_to span,
+    .exp span {
+        padding-left: 4px;
+    }
+    .job_gt span {
+        margin-left: 4px;
+    }
+}
+
+
+/* ================================================================================== */
+
+
+/* MÀN 375 */
+
+@media (max-width:767px) {
+    .bar_address span a {
+        font-size: 14px;
+    }
+    #wrap-content {
+        padding: 0px 16px;
+    }
+    #wr-content {
+        grid-gap: 0px 10px;
+    }
+    .box-2 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 8;
+        margin-bottom: 32px;
+    }
+    #box-3 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #box-4 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 9;
+        grid-row-end: 10;
+        margin-bottom: 32px;
+    }
+    .box-1 {
+        display: block;
+    }
+    .box-1 .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box-1 .image .border_radius {
+        height: 130px;
+        width: 130px;
+    }
+    .info .name_jd {
+        text-align: center;
+        text-align: center;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 18px;
+        padding-right: 0;
+    }
+    .calendar-3,
+    .yeu_cau_cong_viec-3,
+    .mo_ta_cong_viec-3,
+    .quyen_loi-3 {
+        padding-left: 0px;
+    }
+    .info .wrap-job .name_job,
+    .info .date p,
+    .money .from_to p,
+    .exp_info p,
+    .teacher p,
+    .address p,
+    .day_started p,
+    .day_ended p,
+    .info .date p,
+    .money .from_to p,
+    .money .from_to p span,
+    .exp_info p,
+    .teacher p,
+    .address p,
+    .day_started p,
+    .day_ended p,
+    .info .date p span,
+    .exp_info p span,
+    .teacher p span,
+    .location p,
+    .address p span,
+    .day_started span,
+    .day_ended p span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .job_detail span {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .box-1 .done {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .box-1 .done .ung-tuyen,
+    .box-1 .done .da-ung-tuyen {
+        position: unset;
+    }
+    .calendar .title,
+    .mo_ta_cong_viec-2,
+    .yeu_cau_cong_viec-2,
+    .quyen_loi-2 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .work_day .day .grid-2 .active span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .time_work p,
+    .time_no_work p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .mo_ta_cong_viec-3,
+    .yeu_cau_cong_viec-3,
+    .quyen_loi-3 {
+        padding-left: 0;
+        font-size: 14px;
+        line-height: 135%;
+        /* or 19px */
+        text-align: justify;
+    }
+    .box-2 .ung-tuyen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 48px;
+    }
+    .person_potential {
+        padding: 20px 30px 26px 30px;
+    }
+    .wrap_person_potential_box {
+        padding: 5px 0px;
+    }
+    .slick-prev-tag {
+        left: -15px;
+    }
+    .slick-next-tag {
+        right: -15px;
+    }
+    .block .info_detail .name a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .block .info_detail .address span,
+    .block .info_detail .money .from_to span,
+    .block .info_detail .exp span,
+    .block .info_detail .job_gt span,
+    .see_detail_person_potential a {
+        font-size: 14px;
+    }
+    .siderbar-search span {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .list-item-search button,
+    .list-item-keywords button {
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+}
+
+
+/* ================================================================================== */

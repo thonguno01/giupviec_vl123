@@ -1,0 +1,467 @@
+                                    /* =============================================================== */
+                                    /* PHẦN SLUG */
+                                    
+                                    .header .center .logo,
+                                    .header .right .notify,
+                                    .header .right .user {
+                                        display: none;
+                                    }
+                                    
+                                    #wrap-content {
+                                        background: #F4F4F4;
+                                    }
+                                    
+                                    .main_content {
+                                        padding: 0px 50px;
+                                        padding-top: 36px;
+                                        padding-bottom: 40px;
+                                    }
+                                    
+                                    .bar_address span {
+                                        padding-right: 16px;
+                                    }
+                                    
+                                    .bar_address span:nth-last-child() {
+                                        color: #000;
+                                    }
+                                    
+                                    .bar_address .active {
+                                        color: #1C1D20;
+                                        font-weight: 500;
+                                    }
+                                    /* =====Nội dung ====== */
+                                    
+                                    .box-left {
+                                        width: 72%;
+                                    }
+                                    
+                                    #wr-content {
+                                        display: flex;
+                                        padding: 0px 50px;
+                                        justify-content: space-between;
+                                        flex-wrap: wrap;
+                                    }
+                                    
+                                    .content {
+                                        background: #FFFFFF;
+                                        /* flex-basis: 72%; */
+                                        border-radius: 20px;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 28px;
+                                        line-height: 110%;
+                                    }
+                                    
+                                    .title {
+                                        text-align: center;
+                                        padding-top: 38px;
+                                        padding-bottom: 13px;
+                                        font-weight: 700;
+                                        font-size: 28px;
+                                        line-height: 110%;
+                                        color: #1976D2;
+                                    }
+                                    
+                                    .result_search>strong {
+                                        font-weight: 600;
+                                        color: #1976D2;
+                                    }
+                                    
+                                    .result_search {
+                                        font-weight: 400;
+                                        font-size: 27px;
+                                        line-height: 149%;
+                                        text-align: center;
+                                        letter-spacing: 1.25px;
+                                        padding-bottom: 17px;
+                                    }
+                                    
+                                    .slug_none_2 {
+                                        display: none;
+                                    }
+                                    
+                                    .item_parent {
+                                        padding: 17px 17px;
+                                        position: relative;
+                                        background: #FFFFFF;
+                                        /* 1976D2 55% */
+                                        border: 1px solid rgba(25, 118, 210, 0.55);
+                                        box-sizing: border-box;
+                                        border-radius: 20px;
+                                        margin-bottom: 17px;
+                                        margin-right: 50px;
+                                        margin-left: 52px;
+                                    }
+                                    
+                                    .item_parent:hover {
+                                        background: rgba(25, 118, 210, 0.55);
+                                        color: #FFFFFF;
+                                    }
+                                    
+                                    .item_parent:hover .info .border_radius {
+                                        background: #FFFFFF;
+                                        /* FFAE28 */
+                                        border: 1px solid #FFAE28;
+                                        box-sizing: border-box;
+                                    }
+                                    
+                                    .item_parent:hover .info_title,
+                                    .item_parent:hover .item-child .span_add,
+                                    .item_parent:hover .item-child .span_age,
+                                    .item_parent:hover .item-child .span_money,
+                                    .item_parent:hover .item-child .span_exp,
+                                    .item_parent:hover .item-child .span_star,
+                                    .item_parent:hover .item-child strong,
+                                    .item_parent:hover .detail p {
+                                        color: #FFFFFF;
+                                    }
+                                    
+                                    .item_parent:hover .item-child .span_job {
+                                        background: #EFEFEF;
+                                        border-radius: 10px;
+                                    }
+                                    
+                                    .item_parent:hover .calendar .active {
+                                        border: 1px solid #FFAE28;
+                                        box-sizing: border-box;
+                                        background: #FFFFFF;
+                                    }
+                                    
+                                    .item_parent:hover .calendar>.active>span {
+                                        color: #FFAE28;
+                                    }
+                                    
+                                    .item_parent:hover .calendar>.non_active>span {
+                                        color: #666666;
+                                    }
+                                    
+                                    .item_parent:hover .calendar>.non_active {
+                                        background: #EFEFEF;
+                                    }
+                                    
+                                    .pagination {
+                                        text-align: right;
+                                        padding: 17px 32px 38px 52px;
+                                    }
+                                    
+                                    .pagination>.button>button {
+                                        padding: 2px 10px;
+                                        box-sizing: border-box;
+                                        border-radius: 5px;
+                                    }
+                                    
+                                    .pagination>.button>span {
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                        line-height: 16px;
+                                        /* 666666 */
+                                        color: #666666;
+                                    }
+                                    
+                                    .button_no_active {
+                                        border: none;
+                                    }
+                                    
+                                    .button_active {
+                                        border: 1px solid #1976D2;
+                                        background: #FFFFFF;
+                                    }
+                                    
+                                    .star_prominent {
+                                        position: absolute;
+                                        top: 14px;
+                                        right: 20px;
+                                        background: none;
+                                        border: none;
+                                    }
+                                    
+                                    .info_title {
+                                        font-weight: 600;
+                                        font-size: 20px;
+                                        line-height: 23px;
+                                        text-align: justify;
+                                    }
+                                    
+                                    .info_detail {
+                                        padding-left: 16px;
+                                    }
+                                    
+                                    .item-child-1,
+                                    .item-child-2 {
+                                        flex-basis: 50%;
+                                    }
+                                    /* Thẻ span trong info  */
+                                    
+                                    .address>.span_add {
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 19px;
+                                    }
+                                    
+                                    .job>.span_job {
+                                        height: 84%;
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                        line-height: 16px;
+                                        text-align: justify;
+                                        color: #1976D2;
+                                        background: #EFEFEF;
+                                        border-radius: 10px;
+                                        padding: 6px 8.5px;
+                                    }
+                                    
+                                    .money>.span_money {
+                                        color: #FF0000;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 19px;
+                                    }
+                                    
+                                    .star>.span_star {
+                                        color: #1C1D20;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 19px;
+                                    }
+                                    
+                                    .exp>.span_exp,
+                                    .age>.span_age {
+                                        color: #666666;
+                                        font-weight: 500;
+                                        font-size: 16px;
+                                        line-height: 19px;
+                                    }
+                                    
+                                    strong {
+                                        font-weight: 100;
+                                        color: #1C1D20;
+                                    }
+                                    /* ảnh child 1 */
+                                    
+                                    .border_radius {
+                                        border: 1px solid #1976D2;
+                                        border-radius: 999em;
+                                    }
+                                    
+                                    img.img-thumb {
+                                        padding: 34px 10px;
+                                    }
+                                    
+                                    .subtract_img {
+                                        padding: 2.5px 2.5px;
+                                    }
+                                    /* ========= */
+                                    
+                                    .calendar .radius span {
+                                        font-size: 12px;
+                                        line-height: 14px;
+                                    }
+                                    
+                                    .calendar .radius {
+                                        margin-right: 11px;
+                                    }
+                                    
+                                    .calendar>.active>span {
+                                        color: #1976D2;
+                                    }
+                                    
+                                    .calendar>.non_active>span {
+                                        color: #666666;
+                                    }
+                                    
+                                    .calendar .active {
+                                        width: 26px;
+                                        height: 26px;
+                                        border: 1px solid #1976D2;
+                                        border-radius: 50%;
+                                        color: #1976D2;
+                                        font-weight: 400;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    
+                                    .calendar .non_active {
+                                        width: 26px;
+                                        height: 26px;
+                                        border-radius: 50%;
+                                        background: #EFEFEF;
+                                        font-weight: 400;
+                                        font-size: 12px;
+                                        color: #666666;
+                                        line-height: 14px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    
+                                    .detail {
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 19px;
+                                        text-align: justify;
+                                        padding: 10px 0px 12px 0px;
+                                    }
+                                    /* =========SIDERBAR-RIGHT========== */
+                                    
+                                    #wr-sidebar {
+                                        padding: 18px 15px;
+                                        min-height: 1000px;
+                                        margin-bottom: 28px;
+                                        background: #FFFFFF;
+                                        border-radius: 20px;
+                                    }
+                                    
+                                    .siderbar_right {
+                                        /* background: burlywood; */
+                                        flex-basis: 26%;
+                                    }
+                                    
+                                    .filter {
+                                        padding-bottom: 18px;
+                                        padding-top: 9px;
+                                        position: relative;
+                                    }
+                                    
+                                    .siderbar-title {
+                                        font-size: 20px;
+                                        line-height: 23px;
+                                        text-align: justify;
+                                        /* Màu chính */
+                                        color: #1976D2;
+                                        padding-bottom: 9px;
+                                    }
+                                    
+                                    .list-item {
+                                        padding: 13px 6px 13px 0px;
+                                    }
+                                    
+                                    .list-item img {
+                                        object-fit: fill;
+                                    }
+                                    
+                                    .button>.button_reset {
+                                        width: 100%;
+                                        background: #FFFFFF;
+                                        /* Màu chính */
+                                        border: 1px solid #1976D2;
+                                        box-sizing: border-box;
+                                        border-radius: 20px;
+                                        padding: 13px 0px;
+                                        margin-bottom: 9px;
+                                    }
+                                    
+                                    .button>.button_aplly {
+                                        width: 100%;
+                                        background: #1976D2;
+                                        /* Màu chính */
+                                        border: 1px solid #1976D2;
+                                        box-sizing: border-box;
+                                        border-radius: 20px;
+                                        padding: 13px 0px;
+                                        color: #FFFFFF;
+                                    }
+                                    
+                                    #wr-sidebar-search {
+                                        background: #FFFFFF;
+                                        border-radius: 20px;
+                                        padding: 16px 10px 33px 17px;
+                                        margin-bottom: 28px;
+                                    }
+                                    
+                                    .siderbar-search {
+                                        position: relative;
+                                        width: 100%;
+                                    }
+                                    
+                                    .siderbar-search img {
+                                        position: absolute;
+                                        top: 0px;
+                                        left: 0;
+                                    }
+                                    
+                                    .siderbar-search span {
+                                        border: none;
+                                        padding-left: 35px;
+                                        padding-top: 10px;
+                                        padding-bottom: 19px;
+                                        font-weight: 600;
+                                        font-size: 20px;
+                                        line-height: 23px;
+                                        color: #1976D2;
+                                        text-align: left;
+                                    }
+                                    
+                                     ::placeholder {
+                                        color: #1976D2;
+                                        opacity: 1;
+                                    }
+                                    
+                                     :-ms-input-placeholder {
+                                        color: #1976D2;
+                                    }
+                                    
+                                     ::-ms-input-placeholder {
+                                        color: #1976D2;
+                                    }
+                                    
+                                    .list-item-search span {
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 19px;
+                                        color: #1976D2;
+                                    }
+                                    
+                                    .list-item-search {
+                                        padding: 10px 0px;
+                                    }
+                                    
+                                    .list-item-keywords {
+                                        background: rgba(196, 196, 196, 0.5);
+                                        border-radius: 20px;
+                                        padding: 8px 15px;
+                                        font-size: 16px;
+                                        width: fit-content;
+                                        margin-bottom: 10px;
+                                    }
+                                    
+                                    .list-item>button {
+                                        border: none;
+                                        background: none;
+                                    }
+                                    
+                                    .list-item-search>button,
+                                    .list-item-keywords>button {
+                                        border: none;
+                                        background: none;
+                                        color: #1976D2;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 19px;
+                                        text-align: left;
+                                    }
+                                    
+                                    .list-item-keywords span {
+                                        font-size: 16px;
+                                        color: #1976D2;
+                                    }
+                                    
+                                    .filter_select {
+                                        width: 100%;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 19px;
+                                        /* identical to box height */
+                                        text-align: justify;
+                                        /* 1C1D20 */
+                                        color: #1C1D20;
+                                    }
+                                    
+                                    .filter>img {
+                                        object-fit: fill;
+                                        position: absolute;
+                                        top: 15px;
+                                        right: 4px;
+                                    }

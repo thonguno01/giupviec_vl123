@@ -1,0 +1,191 @@
+.home {
+    margin-top: 0px;
+}
+
+.home-br-1 {
+    float: left;
+    /* padding-top: 79px; */
+    padding-left: 146px;
+}
+
+.home-br-1 h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 61px;
+    color: #164A77;
+}
+
+.home-br-bg {
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+.home-br-bg nav {
+    float: left;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #0D71BA;
+}
+
+.home-br-1 .text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #0D71BA;
+    background: none;
+    padding-bottom: 0px;
+}
+
+.home-br-1 p {
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #164A77;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+    background: url(../images/line.png) no-repeat;
+    background-position: left bottom;
+}
+
+.home-br-1 .text-1 {
+    width: 59%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5A758B;
+    padding-top: 20px;
+    background: none;
+    margin: 0;
+    padding-top: 36px;
+}
+
+.home-br-1 button {
+    float: left;
+    position: relative;
+    text-align: center;
+    background: #164A77;
+    box-shadow: 2px 8px 15px rgb(102 102 102 / 10%);
+    border-radius: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 15.5px 0.25px 15.5px 21px;
+}
+
+.home-br-1 button img {
+    padding-left: 14.17px;
+}
+
+
+/* baner */
+
+.wr_banner2 {
+    padding: 0px 0;
+}
+
+.wr_bn2_left {
+    width: 52%;
+    padding: 0 0px;
+}
+
+.clsFlexBetwMid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_right_bn2_top {
+    align-items: baseline;
+}
+
+.box_right_bn2_bot {
+    margin-top: 15px;
+    justify-content: flex-end;
+    align-items: start;
+}
+
+.wr_bn2_right {
+    width: 53%;
+    height: 600px;
+    background: url(../images/bg-title-1.png) no-repeat;
+    background-size: 100%;
+}
+
+.clsFlexClmCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.clsFlexBetw_top {
+    width: 47%;
+    background: url(../images/rocket.png) no-repeat;
+    padding: 35px 0px 35px 0px;
+}
+.clsFlexBetw_top span {
+    box-shadow: 0px 2px 10px rgb(102 102 102 / 10%);
+    border-radius: 10px;
+    padding: 16.5px 20px 16.5px 118px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #0D71BA;
+}
+.clsFlexBetw_bottom {
+    width: 47%;
+    float: right;
+    background: url(../images/shield.png) no-repeat;
+    background-position: right;
+    padding: 35px 0px 35px 0px;
+}
+.clsFlexBetw_bottom span {
+    box-shadow: 2px 8px 15px rgba(102, 102, 102, 0.1);
+    border-radius: 10px;
+    padding: 14.5px 30px 14.5px 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #0D71BA;
+}
+.item_bn2 {
+    padding: 0px 46px 0px 0px;
+}
+.item_bn2:last-child {
+    padding: 0px 0px 0px 0px;
+}
+.clsFlexBetw.box_item_bn2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding-top: 36px;
+    padding-left: 146px;
+}
+.number-count {
+    color: #2767a5;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 15px 0;
+}

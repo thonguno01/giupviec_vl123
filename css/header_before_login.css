@@ -1,0 +1,175 @@
+.header .center .logo,
+.header .right .notify,
+.header .right .user,
+.header .right .menu_mb {
+    display: none;
+}
+
+<<<<<<< HEAD
+.header .center .logo_login {
+    display: none !important;
+}
+
+=======
+>>>>>>> 1b8cd0028ba9a370b0f5c0f6971120c763fe1769
+.header .center .link-bar {
+    display: flex;
+}
+
+#profile,
+#menu_user {
+    display: none !important;
+}
+
+<<<<<<< HEAD
+=======
+
+/* css popup dang nhap */
+
+.bg_popup_login {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(102, 102, 102, 0.7);
+    z-index: 99;
+    padding-top: 10vh;
+}
+
+.bg_popup_login .login_popup {
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 560px;
+    height: 378px;
+    margin: auto;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.login_popup .close_popup {
+    position: absolute;
+    border: none;
+    background: none;
+    top: 15px;
+    right: 20px;
+}
+
+.login_popup .text {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.login_popup .text p {
+    text-align: center;
+}
+
+.login_popup .text a {
+    font-weight: 400;
+    color: #FFAE28;
+}
+
+.login_popup .btn_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.login_popup .btn_box a {
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 410px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.login_popup .btn_box .login_employee {
+    background: #1976D2;
+}
+
+.login_popup .btn_box .login_company {
+    margin-top: 15px;
+    background: #FFAE28;
+}
+
+.login_popup .box_bottom {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_popup .box_bottom a {
+    text-transform: uppercase;
+    color: #7B61FF;
+}
+
+@media only screen and ( max-width: 767px) {
+    .bg_popup_login .login_popup {
+        width: 340px;
+    }
+    .login_popup .btn_box a {
+        width: unset;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+
+/* het css popup dang nhap */
+
+>>>>>>> 1b8cd0028ba9a370b0f5c0f6971120c763fe1769
+@media only screen and ( max-width: 1365px) {
+    .menu_pc {
+        display: none;
+    }
+    .menu_mb {
+        display: block;
+    }
+    .header .center .link-bar {
+        display: none;
+    }
+    .header .center .logo {
+        display: flex;
+    }
+    .header .left .logo {
+        display: none;
+    }
+}
+
+@media only screen and ( min-width: 1520px) {
+    .header {
+        padding: 0px 165px;
+    }
+}
+
+@media only screen and ( max-width: 1365px) {
+    .header {
+        padding: 0px 30px;
+    }
+    .header .right .menu_mb {
+        display: block;
+    }
+}
+
+@media only screen and ( max-width: 1023px) {
+    .header .right .menu_mb {
+        display: block;
+    }
+}
+
+@media only screen and ( max-width: 767px) {
+    .header {
+        padding: 0px 20px;
+    }
+}

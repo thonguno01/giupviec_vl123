@@ -1,0 +1,326 @@
+/* css cart-details */
+.address_bar {
+    align-items: center;
+    display: flex;
+    gap: 0 10px;
+    padding: 20px 0px 40px 40px;
+}
+.details-products {
+    padding: 0px 40px;
+}
+.details-right {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 19px rgb(102 102 102 / 10%);
+    border-radius: 20px;
+    width: 70%;
+    float: left;
+    margin-bottom: 50px;
+}
+.box-head {
+    padding: 30px 0px 30px 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #333333;
+}
+.customer-info-pr {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.customer-avatar-pr {
+    float: left;
+    width: 105px;
+    margin-left: -10px;
+}
+.customer-name-pr {
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    color: #333333;
+    margin-left: 5px;
+    width: 40%;
+    text-align: left;
+}
+.customer-avatar img {
+    width: 100%;
+}
+.product {
+    padding: 0px 30px 22px 30px;
+    border-bottom: 1px solid #F3F3F3;
+}
+.product li {
+    padding-left: 38.25px;
+    list-style: none;
+    line-height: 27px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.product li :first-child {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    float: right;
+    text-align: left;
+    width: 75%;
+}
+div#bonus {
+    width: 88%;
+    float: right;
+}
+div#bonus a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F79722;
+}
+.amount {
+    display: flex;
+    margin: 0px 30px;
+    align-items: baseline;
+}
+.amount p {
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+.customer-info button {
+    background: none;
+    border: none;
+}
+.btn_sub, .btn_add {
+    float: left;
+    border: none;
+    margin: 0px 14px;
+    background: none;
+    width: 16.66px;
+    height: 16.66px;
+    margin-top: -3px;
+}
+button.remove {
+    margin-left: 45px;
+    border: none;
+    background: none;
+}
+span.prices {
+    width: 36%;
+}
+.btn_add img, .btn_sub img {
+    padding: 0px;
+}
+.remove img {
+    padding: 0px;
+}
+.product-details, .bonus {
+    padding: 0px 0px 0px 103px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    color: #333333;
+}
+.form-rate ul {
+    padding-left: 65px;
+}
+button#close-rate, button#open-rate, #close_1, #open_1 {
+    border: none;
+    background: no-repeat;
+    align-items: center;
+}
+.details-left {
+    float: right;
+    width: 28.5%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 19px rgb(102 102 102 / 10%);
+    border-radius: 20px;
+    padding: 30px;
+}
+.head-left {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #333333;
+    margin-bottom: 35px;
+}
+.details-sp {
+    border-bottom: 1px solid #F3F3F3;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+.details-sp ul, .details-sp li {
+    padding-left: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #333333;
+    float: revert;
+}
+.details-sp li :first-child {
+    padding-left: 0px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 35px;
+    color: #333333;
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.button_details_left {
+    float: left;
+}
+button.delete {
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: none;
+    padding: 13.5px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
+button.acep {
+    background: #0D71BA;
+    box-shadow: 0px 0px 15px rgb(13 113 186 / 10%);
+    border-radius: 10px;
+    width: 100%;
+    padding: 13.5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+a.more-product {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #0D71BA;
+    float: right;
+}
+.more-product img {
+    padding-left: 10px;
+}
+.wr_bn_bottom {
+    width: 99%;
+    float: left;
+    padding-left: 25px;
+    padding-top: 45px;
+    margin-bottom: 100px;
+}
+.customer_amount-prc-rmv {
+    display: flex;
+    align-items: center;
+    width: 49%;
+}
+@media only screen and (max-width:1024px) {
+    .details-right {
+        width: 100%;
+    }
+    .details-left {
+        width: 100%;
+    }
+    .button_details_left {
+        width: 100%;
+    }
+    div#bonus {
+        width: 88.5%;
+        float: right;
+    }
+}
+@media only screen and (max-width:768px) {
+    .wr_bn_bottom {
+        padding-left: 0px
+    }
+    span.prices {
+        width: 35.5%;
+    }
+    .amount {
+        margin: 0px 0px;
+    }
+    button.remove {
+        margin-left: 15px;
+    }
+    div#bonus {
+        width: 83.5%;
+        float: right;
+    }
+}
+@media only screen and (max-width:375px ){
+    .product {
+        padding: 0px 10px 22px 10px;
+        border-bottom: 1px solid #F3F3F3;
+        width: 100%;
+        float: left;
+    }
+    .customer-info-pr {
+        display: block;
+        float: left;
+    }
+    .customer-name-pr {
+        width: 63%;
+    }
+    .customer-avatar-pr img {
+        width: 98px;
+        height: 85px;
+        float: left;
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+    .customer_amount-prc-rmv {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    div#bonus {
+        width: 100%;
+        float: right;
+    }
+    .amount {
+        margin: 0px 0px;
+        float: left;
+    }
+    .btn_sub, .btn_add {
+        margin: 0px 6px;
+    }
+    span.prices {
+        width: 47.5%;
+        float: left;
+    }
+    button.remove {
+        margin-left: 5px;
+        float: left;
+    }
+    .product-details, .bonus {
+        padding: 0px 0px 0px 0px;
+        align-items: center;
+        float: left;
+        width: 100%;
+    }
+    .form-rate ul, .form-rate li {
+        padding-left: 0px;
+    }
+    .product li :first-child {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        color: #333333;
+        float: right;
+        text-align: left;
+        width: 60%;
+    }
+    .details-sp li :first-child {
+        padding-left: 0px;
+        float: right;
+        width: unset;
+        text-align: right;
+    }
+    
+}

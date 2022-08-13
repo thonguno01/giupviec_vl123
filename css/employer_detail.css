@@ -1,0 +1,892 @@
+        .header .center .logo,
+        .header .right .notify,
+        .header .right .user {
+            display: none;
+        }
+        
+        #wrap-content {
+            background: #F4F4F4;
+            padding: 0px 50px;
+        }
+        
+        .main_content {
+            padding-top: 36px;
+            padding-bottom: 40px;
+        }
+        
+        .bar_address .active {
+            color: #1C1D20;
+            font-weight: 500;
+        }
+        
+        .bar_address span a {
+            font-weight: 400;
+        }
+        /*  =========Nội dung ============== */
+        
+        .box-left {
+            width: 72%;
+        }
+        
+        #box-2 {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .siderbar_right {
+            /* background: burlywood; */
+            width: 26%;
+        }
+        
+        .box-1 {
+            display: flex;
+            background: #FFFFFF;
+            /* flex-basis: 72%; */
+            border-radius: 20px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 110%;
+            padding: 26px 25px 25px 76px;
+            position: relative;
+            padding-bottom: 25px;
+            margin-bottom: 20px;
+        }
+        
+        .box-1 .option {
+            border: none;
+            background: none;
+            position: absolute;
+            top: 20px;
+            right: 32px;
+        }
+        
+        .box-1 .image .border_radius {
+            height: 200px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #1976D2;
+            border-radius: 999em;
+            margin-right: 27px;
+            overflow: hidden;
+        }
+        
+        .box-1 .info {
+            width: 48%;
+        }
+        
+        .box-1 .info .name {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: justify;
+        }
+        
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 30px auto;
+            grid: 8px 8px;
+        }
+        
+        .email p,
+        .phone p {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        
+        .address p span:first-child,
+        .email p span:first-child,
+        .phone p span:first-child {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #666666;
+        }
+        
+        .address p,
+        .email p,
+        .phone p {
+            width: 100%;
+        }
+        
+        .address,
+        .email,
+        .phone {
+            display: flex;
+            align-items: center;
+        }
+        
+        .address {
+            padding-top: 15px;
+            align-items: flex-start;
+        }
+        
+        .email {
+            padding: 15px 0px;
+        }
+        
+        .address p span {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #1C1D20;
+            width: 75%;
+        }
+        
+        .address img,
+        .email img,
+        .phone img {
+            padding-right: 5px;
+        }
+        
+        .email p span.link,
+        .phone p span.link {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            background: #FFAE28;
+            border-radius: 20px;
+            padding: 6px 27px;
+            color: #FFFFFF;
+            margin-left: 10px;
+        }
+        
+        .overview {
+            display: flex;
+            width: fit-content;
+            height: fit-content;
+            justify-content: end;
+        }
+        
+        .tin_tuyen_dung,
+        .luot_xem {
+            background: #FFFFFF;
+            box-shadow: 0px 0px 10px rgba(25, 118, 210, 0.45);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+        
+        .tin_tuyen_dung span,
+        .luot_xem span {
+            text-align: center;
+        }
+        
+        .tin_tuyen_dung .top,
+        .luot_xem .top {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 56px;
+            color: #1976D2;
+        }
+        
+        .tin_tuyen_dung .buttom,
+        .luot_xem .buttom {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            color: #1C1D20;
+        }
+        
+        .tin_tuyen_dung {
+            padding: 30px 21px;
+            top: 52px;
+            right: 286px;
+        }
+        
+        .luot_xem {
+            padding: 30px 25px;
+            top: 52px;
+            right: 92px;
+        }
+        
+        .box-2 {
+            background: #FFFFFF url('/images/bg_main_content.png');
+            border-radius: 20px;
+            padding: 20px 78px 48px 78px;
+            margin-bottom: 55px;
+            position: relative;
+        }
+        
+        .box-2 .content>.title {
+            text-align: center;
+            padding-top: 38px;
+            padding-bottom: 32px;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 110%;
+            color: #1976D2;
+        }
+        
+        .box-2 .content>.item_parent {
+            padding: 17px 17px 0px 17px;
+            position: relative;
+            background: #FFFFFF;
+            /* 1976D2 55% */
+            border: 1px solid rgba(25, 118, 210, 0.55);
+            box-sizing: border-box;
+            border-radius: 20px;
+            margin-bottom: 17px;
+        }
+        
+        .box-2 .item_parent .new_job {
+            position: absolute;
+            top: -12px;
+            left: -11px;
+        }
+        
+        .box-2 .item_parent .star_prominent {
+            position: absolute;
+            top: 14px;
+            right: 20px;
+            border: none;
+            background: none;
+        }
+        
+        .box-2 .item_parent .detail {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: justify;
+            padding: 10px 0px 12px 0px;
+        }
+        
+        .box-2 .info .image {
+            padding-right: 16px;
+            width: 17%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .box-2 .item_parent .item-child {
+            display: flex;
+            margin: 4px 0px;
+        }
+        
+        .box-2 .info_detail .info_title a {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            color: #1C1D20;
+        }
+        
+        .box-2 .info_detail {
+            width: 83%;
+        }
+        
+        .item-child-1,
+        .item-child-2 {
+            flex-basis: 50%;
+        }
+        
+        .box-2 .item_parent .info .image .border_radius {
+            border: 1px solid #1976D2;
+            border-radius: 999em;
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .box-2 .star>span {
+            margin-left: -3px;
+        }
+        
+        .box-2 .exp>.span_exp,
+        .box-2 .age>.span_age {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+            text-align: justify;
+            /* 666666 */
+            color: #666666;
+        }
+        
+        .box-2 .item_parent:hover {
+            background: rgba(25, 118, 210, 0.55);
+            color: #FFFFFF;
+        }
+        
+        .item_parent:hover .info_title a,
+        .item_parent:hover .item-child .span_add,
+        .item_parent:hover .item-child .span_age,
+        .item_parent:hover .item-child .span_age span,
+        .item_parent:hover .item-child .span_money,
+        .item_parent:hover .item-child .span_exp,
+        .item_parent:hover .item-child .span_exp span,
+        .item_parent:hover .item-child .span_star,
+        .item_parent:hover .item-child strong,
+        .item_parent:hover .detail p {
+            color: #FFFFFF;
+        }
+        
+        .box-2 .item_parent:hover .info .image .border_radius {
+            border: 1px solid #FFAE28;
+            box-sizing: border-box;
+            background: #FFFFFF;
+        }
+        
+        .item_parent:hover .calendar .active {
+            border: 1px solid #FFAE28;
+            box-sizing: border-box;
+            background: #FFFFFF;
+        }
+        
+        .item_parent:hover .calendar>.active>span {
+            color: #FFAE28;
+        }
+        
+        .item_parent:hover .calendar>.non_active>span {
+            color: #666666;
+        }
+        
+        .item_parent:hover .calendar>.non_active {
+            background: #EFEFEF;
+        }
+        
+        .box-2 .item-child-1 span,
+        .box-2 .item-child-2 span {
+            margin-right: 6px;
+        }
+        
+        .box-2 .item-child-2 span img,
+        .box-2 .item-child-1 span img {
+            margin-top: -7px;
+        }
+        
+        .box-2 .money>.span_money {
+            color: #FF0000;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        
+        .box-2 .address>.span_add {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+            text-align: justify;
+            /* 1C1D20 */
+            color: #1C1D20;
+        }
+        
+        .box-2 .job>.span_job {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1976D2;
+            background: #EFEFEF;
+            border-radius: 10px;
+            padding: 3px 8px;
+            height: fit-content;
+        }
+        
+        .box-2 .calendar .active {
+            width: 26px;
+            height: 26px;
+            border: 1px solid #1976D2;
+            border-radius: 50%;
+            color: #1976D2;
+            font-weight: 400;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .box-2 .calendar .non_active {
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            background: #EFEFEF;
+            font-weight: 400;
+            font-size: 12px;
+            color: #666666;
+            line-height: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .box-2 .calendar>.active>span {
+            color: #1976D2;
+        }
+        
+        .box-2 .calendar>.non_active>span {
+            color: #666666;
+        }
+        
+        .box-2 .calendar .radius {
+            margin-right: 11px;
+        }
+        
+        .box-2 .calendar .radius span {
+            font-size: 12px;
+            line-height: 14px;
+        }
+        
+        .box-2 .pagination>.button>button {
+            padding: 2px 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+        
+        .box-2 .button_no_active {
+            border: none;
+        }
+        
+        .box-2 .button_active {
+            border: 1px solid #1976D2;
+            background: #FFFFFF;
+        }
+        
+        .pagination {
+            text-align: right;
+            padding: 17px 0px 0px 52px;
+            margin-right: -30px;
+        }
+        
+        .box-3 {
+            background: #FFFFFF;
+            border-radius: 20px;
+            padding: 16px 10px 33px 17px;
+            margin-bottom: 28px;
+        }
+        
+        .box-3 .list-item-search>button,
+        .box-3 .list-item-keywords>button {
+            border: none;
+            background: none;
+            color: #1976D2;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: left;
+        }
+        
+        .box-3 .list-item-search {
+            padding: 10px 0px;
+        }
+        
+        .box-3 .siderbar-search span {
+            border: none;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 19px;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            color: #1976D2;
+            text-align: left;
+        }
+        
+        .box-4 {
+            background: #FFFFFF;
+            border-radius: 20px;
+            padding: 16px 10px 33px 17px;
+            margin-bottom: 28px;
+        }
+        
+        .box-4 .list-item-search>button,
+        .box-4 .list-item-keywords>button {
+            border: none;
+            background: none;
+            color: #1976D2;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: left;
+        }
+        
+        .box-4 .list-item-search {
+            padding: 10px 0px;
+        }
+        
+        .box-4 .siderbar-search span {
+            border: none;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 19px;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            /* Màu chính */
+            color: #1976D2;
+        }
+        
+        .box-5 {
+            background: #FFFFFF;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            padding: 22px 15px 21px 15px;
+        }
+        
+        .box-5 .siderbar-search {
+            position: relative;
+        }
+        
+        .box-5 .siderbar-search img {
+            position: absolute;
+            top: 0px;
+            left: 0;
+        }
+        
+        .box-5 .siderbar-search span {
+            border: none;
+            width: 100%;
+            padding-left: 35px;
+            padding-bottom: 17px;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            color: #1976D2;
+            text-align: left;
+        }
+        
+        .box-5 .list-item-search>button,
+        .box-5 .list-item-keywords>button {
+            border: none;
+            background: none;
+            text-align: left;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #4073AF;
+        }
+        
+        .box-5 .list-item-keywords button {
+            background: rgba(196, 196, 196, 0.5);
+            border-radius: 20px;
+            padding: 8px 15px;
+            font-size: 16px;
+        }
+        
+        .box-5 .list-item-keywords {
+            width: fit-content;
+            margin-bottom: 10px;
+        }
+        
+        .info_title {
+            padding-right: 45px;
+        }
+        
+        .box-2 .item_parent .detail p {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .siderbar_right .box_list_item {
+            padding-left: 5px;
+        }
+        /* Responsive */
+        
+        @media only screen and (min-width:1520px) {
+            #wrap-content {
+                padding: 0px 128px;
+            }
+        }
+        
+        @media only screen and (max-width:1365px) {
+            #wrap-content {
+                padding: 0px 23px;
+            }
+            .box-1 {
+                padding: 23px 35px;
+            }
+            .tin_tuyen_dung {
+                padding: 17px;
+                top: 58px;
+                right: 215px;
+            }
+            .luot_xem {
+                padding: 17px 22px;
+                top: 58px;
+                right: 45px;
+            }
+            .tin_tuyen_dung .top,
+            .luot_xem .top {
+                font-size: 40px;
+                margin-bottom: 18px;
+            }
+            .box-1 .image .border_radius {
+                width: 150px;
+                height: 150px;
+                margin-right: 20px;
+            }
+            .box-2 {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+            .box-2 .info .image {
+                width: 23%;
+            }
+            .box-2 .info_detail {
+                width: 77%;
+            }
+            .info_title {
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .box-left {
+                width: 69%;
+            }
+            .siderbar_right {
+                width: 29%;
+            }
+            .box-3 {
+                padding-left: 12px;
+            }
+            .box-3 .siderbar-search span,
+            .box-4 .siderbar-search span {
+                font-size: 17px;
+                line-height: 20px;
+                padding-left: 0px;
+            }
+            .box-3 .siderbar-search img,
+            .box-4 .siderbar-search img {
+                width: 19px;
+                height: auto;
+            }
+            .box-5 .siderbar-search span {
+                font-size: 17px;
+                line-height: 20px;
+            }
+            .box-5 .list-item-keywords button {
+                font-size: 13px;
+                line-height: 15px;
+            }
+            .item-child-1 {
+                flex-basis: 55%;
+            }
+            .item-child-2 {
+                flex-basis: 45%;
+            }
+            .box-2 .info_detail .info_title a {
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+        
+        @media only screen and (max-width:1023px) {
+            #wrap-content {
+                padding: 0px 23px;
+            }
+            .box-1 {
+                padding: 25px 15px;
+            }
+            .tin_tuyen_dung {
+                padding: 22px 12px;
+                margin-left: 0px;
+                margin-top: 20px;
+            }
+            .luot_xem {
+                padding: 22px 15px;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+            .tin_tuyen_dung .top,
+            .luot_xem .top {
+                font-size: 36px;
+                margin-bottom: 10px;
+            }
+            .box-1 .image .border_radius {
+                width: 100px;
+                height: 100px;
+                margin-right: 15px;
+            }
+            .box-1 .option {
+                top: 10px;
+                right: 15px;
+            }
+            .box-1 .option img {
+                width: 24px;
+                height: auto;
+            }
+            .grid-2 {
+                grid-template-columns: 25px auto;
+            }
+            .tin_tuyen_dung .buttom,
+            .luot_xem .buttom {
+                font-size: 14px;
+                line-height: 16px;
+            }
+            .email,
+            .phone {
+                padding: 6px 0px;
+            }
+            #box-2 {
+                flex-wrap: wrap;
+            }
+            .box-2 .info .image {
+                width: 20%;
+            }
+            .box-2 .info_detail {
+                width: 80%;
+            }
+            .box-left {
+                width: 100%;
+            }
+            .siderbar_right {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .box-3 {
+                width: 35%;
+            }
+            .box-4 {
+                width: 62%;
+            }
+            .box_list_item {
+                margin-top: 20px;
+            }
+            .box-4 .box_list_item,
+            .box-5 .box_list_item {
+                margin-top: 20px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .box-4 .list-item-search,
+            .box-5 .list-item-keywords {
+                width: 45%;
+            }
+            .box-5 .list-item-keywords button {
+                font-size: 12px;
+                line-height: 14px;
+                padding: 6px 15px;
+            }
+            .box-2 .item_parent .new_job img {
+                width: 45px;
+                height: auto;
+            }
+        }
+        
+        @media only screen and (max-width:767px) {
+            .bar_address span a {
+                font-size: 14px;
+                line-height: 110%;
+            }
+            .box-1 {
+                flex-direction: column;
+                align-items: center;
+            }
+            .box-1 .image .border_radius {
+                margin: 0px;
+            }
+            .box-1 .info {
+                width: 100%;
+                margin-top: 12px;
+            }
+            .box-1 .overview {
+                width: 100%;
+                justify-content: center;
+            }
+            .box-1 .info .name {
+                text-align: center;
+                font-size: 20px;
+                line-height: 23px;
+            }
+            #wrap-content {
+                padding: 0px 15px;
+            }
+            .box-2 {
+                padding: 18px 7px;
+            }
+            .box-2 .content .title {
+                padding-top: 0px;
+                font-size: 16px;
+                line-height: 110%;
+            }
+            .box-2 .content .item_parent {
+                padding: 15px 13px;
+            }
+            .box-2 .item_parent .info .image .border_radius {
+                width: 64px;
+                height: 64px;
+            }
+            .box-2 .item_parent .star_prominent img {
+                width: 24px;
+                height: auto;
+            }
+            .box-2 .item_parent .star_prominent {
+                top: 10px;
+                right: 13px;
+            }
+            .box-2 .info_detail .info_title a {
+                font-size: 16px;
+                line-height: 19px;
+            }
+            .info_title {
+                padding-right: 30px;
+            }
+            .box-2 .address .span_add,
+            .box-2 .money .span_money,
+            .box-2 .exp .span_exp,
+            .box-2 .age .span_age,
+            .box-2 .star .span_star {
+                font-size: 14px;
+                line-height: 16px;
+            }
+            .box-2 .item_parent .item-child {
+                flex-wrap: wrap;
+            }
+            .item-child-1,
+            .item-child-2 {
+                flex-basis: 100%;
+            }
+            .item-child-2 {
+                margin-top: 4px;
+            }
+            .box-2 .job>.span_job {
+                font-size: 12px;
+                line-height: 14px;
+            }
+            .box-2 .item_parent .detail p {
+                font-size: 13px;
+                line-height: 15px;
+            }
+            .box-2 .calendar .radius {
+                width: 24px;
+                height: 24px;
+            }
+            .box-2 {
+                margin-bottom: 30px;
+            }
+            .box-3,
+            .box-4 {
+                width: 100%;
+            }
+            .box-4 .list-item-search,
+            .box-5 .list-item-keywords {
+                width: 100%;
+            }
+            .box-3 .siderbar-search span,
+            .box-4 .siderbar-search span,
+            .box-5 .siderbar-search span {
+                font-size: 18px;
+                line-height: 22px;
+            }
+            .pagination {
+                margin: 0px;
+            }
+        }

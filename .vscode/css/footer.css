@@ -1,0 +1,133 @@
+footer {
+    float: left;
+    width: 100%;
+}
+#footer-top {
+    background: #2767A5;
+    padding: 8px 0px 5px 0px;
+}
+#footer-bottom {
+    padding: 33px 0px 47px 0px;
+    background: #F8F9FC;
+}
+.main {
+    width: 100%;
+    float: left;
+}
+.text-center {
+    text-align: center !important;
+}
+#footer_company {
+    padding: 0px 0px 46px 0px;
+}
+#footer_company #name_site {
+    color: #595959;
+    font-size: 24px;
+    line-height: 39px;
+    font-weight: 700;
+    font-family: Roboto;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+#mstFooter, #nameCompany {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #595959;
+}
+#nameCompany:after {
+    display: inline-block;
+    margin: 0 12px;
+    content: "|";
+    color: #595959;
+}
+.col_1 {
+    width: 35%;
+    float: left;
+    padding-left: 83px;
+}
+#footer-bottom .title {
+    font-family: 'Roboto'!important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 160.9% !important;
+    color: #595959 !important;
+}
+
+.col_1 p {
+    color: #595959;
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Roboto;
+}
+.col_1 .fa-phone {
+    font-size: 24px;
+    line-height: 28px;
+}
+.col_1 .fa-envelope-o {
+    font-size: 22px;
+    color: #595959;
+    line-height: 35px;
+}
+.col_1 p:nth-child(2) span {
+    line-height: 35px;
+}
+.col_1 span {
+    color: #595959;
+    font-family: Roboto;
+    font-weight: 600;
+}
+.address-ft {
+    color: #595959;
+}
+.col_2 {
+    width: 44%;
+    float: left;
+    padding-left: 40px;
+}
+#bocongthuong {
+    margin-right: 42px;
+    display: inline-block;
+}
+.col_2 a {
+    color: #ffeb36;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Roboto;
+}
+#dcma {
+    display: inline-block;
+    padding-left: 300px;
+}
+.col_3 {
+    width: 21%;
+    float: left;
+}
+/*footer-top*/
+#footer-top li {
+    display: inline-block;
+    padding-left: 5px;
+}
+#footer-top a {
+    color: #fff;
+    padding: 0 13px;
+    font-size: 16px;
+    font-family: Roboto-Regular;
+}
+#footer-top li:after {
+    content: "|";
+    color: #fff;
+    width: 1px;
+    height: 3px;
+}
+#footer-top li:last-child:after {
+    content: "";
+}
+#footer-top li:first-child a {
+    padding-left: 0;
+}

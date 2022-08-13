@@ -1,0 +1,445 @@
+.row {
+    margin: 0px;
+}
+
+.form_input .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form_input .row::after,
+.form_input .row::before {
+    display: none;
+}
+
+.form_input .row .left,
+.form_input .row .right {
+    width: 47%;
+}
+
+.warning {
+    color: red;
+}
+
+.form_input .row label {
+    display: block;
+}
+
+.form_input .row .center {
+    width: 100%;
+}
+
+.form_input .row input,
+.form_input .row select {
+    width: 100%;
+    padding: 10px 18px;
+    background: #FFFFFF;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.form_input .view_pass {
+    border: none;
+    background: none;
+}
+
+.form_input .row input#avata {
+    padding: 7px 18px;
+}
+
+.row .center textarea {
+    margin-left: 3%;
+    width: 97%;
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    resize: none;
+}
+
+.sal_opt {
+    display: inline-flex;
+    background: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    padding: 20px 0px;
+    padding-bottom: 0px;
+}
+
+.sal_opt .option {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 4px 10px;
+    border: 2px solid lightgrey;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#option-1:checked:checked~.option-1,
+#option-2:checked:checked~.option-2 {
+    border-color: #1976D2;
+    background: #1976D2;
+}
+
+.sal_opt .option span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+}
+
+#option-1:checked:checked~.option-1 span,
+#option-2:checked:checked~.option-2 span {
+    color: #fff;
+}
+
+.form_input .row_sal .sal_from,
+.form_input .row_sal .sal_to,
+.form_input .row_sal #static {
+    position: relative;
+    display: flex;
+}
+
+.form_input .row_sal {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form_input .row_sal .left {
+    width: 47%;
+}
+
+.form_input .row_sal .right {
+    width: 20%;
+}
+
+.form_input .row_sal .middle {
+    width: 6%;
+    text-align: center;
+    font-style: italic;
+}
+
+.form_input .row_sal input,
+.form_input .row_sal select {
+    width: 100%;
+    padding: 10px 18px;
+    background: #FFFFFF;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+/* .left #sal {
+    position: relative;
+} */
+
+.left .text span {
+    position: absolute;
+    top: 19%;
+    right: 15px;
+}
+
+.row_sal .select2-container {
+    margin-top: 0px;
+}
+
+.form_input .row_sal {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.table_schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+.table_schedule .schedule_row {
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px dashed #1C1D20;
+    box-sizing: border-box;
+    padding: 10px 0px;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+    padding-left: 40px;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 14%;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1.5px solid #C4C4C4;
+}
+
+.container:hover .checkmark {
+    background: #ccc;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container .checkmark:after {
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.container input:checked~.checkmark {
+    background: #2196F3;
+    border: none;
+}
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+.col_1 .date {
+    display: flex;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1976D2;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 50%;
+    /* padding: 7px 7px; */
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule_row .col_1 {
+    width: 12%;
+}
+
+.schedule_row .col_2 span,
+.schedule_row .col_3 span {
+    width: 13%;
+    padding-left: 10px;
+}
+
+.schedule_row .col_2 button,
+.schedule_row .col_3 button {
+    width: 10%;
+}
+
+.schedule_row .col_2 input,
+.schedule_row .col_3 input {
+    width: 32%;
+}
+
+.col_time {
+    display: flex;
+    justify-content: start;
+    width: 44%;
+    align-items: center;
+}
+
+.col_time input {
+    background: #FFFFFF;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #000;
+    padding: 5px 5px;
+    font-size: 16px;
+    line-height: 19px;
+    width: 30%;
+    text-align: center;
+}
+
+.col_time button {
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+.schedule_msg {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_register {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_register button {
+    margin-top: 30px;
+    border-radius: 3px;
+    padding: 11px 26px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.login_row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.login_row span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C1D20;
+}
+
+.login_row span a {
+    text-transform: uppercase;
+    padding-left: 3px;
+}
+
+#dynamic .sal_from,
+#dynamic .sal_to {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#dynamic .sal_to {
+    margin-top: 10px;
+}
+
+#dynamic input {
+    width: 100%;
+}
+
+#dynamic label {
+    width: 20%;
+}
+
+.box_skill .check_box {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box_skill .check_box .left,
+.box_skill .check_box .right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_skill .check_box .right label,
+.box_skill .check_box .left label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box_skill .other_skill {
+    display: flex;
+    align-items: center;
+}
+
+.box_skill .other_skill input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 9px 10px;
+    width: 35%;
+    margin-right: 10px;
+    min-width: 300px;
+}
+
+.form_input .row input:disabled {
+    background: #EFEFEF;
+    border: none;
+}
+
+.box_skill .other_skill input:disabled {
+    background: #C4C4C4;
+    border: none;
+}
+
+.box_skill .other_skill button {
+    background: none;
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.box_skill .container {
+    padding-left: 30px;
+    min-height: 22px;
+    min-width: 22px;
+    /* width: 22px; */
+}
+
+.box_skill .other_skill .container {
+    width: 22px;
+    margin: 0px;
+}
+
+.box_skill .container::before,
+.box_skill .container::after {
+    display: none;
+}

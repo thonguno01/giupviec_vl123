@@ -1,0 +1,122 @@
+
+@media screen and ( min-width: 1520px) {
+    body {
+        width: 1520px;
+    }
+    .box_header {
+        width: 1211px;
+        min-height: 40px;
+        padding-bottom: 35px;
+        margin-left: 154px;
+    }
+    .menu {
+        display: none;
+    }
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1310px;
+    }
+}
+
+@media only screen and ( min-width: 1024px) and ( max-width: 1365px) {
+    body {
+        width: 100%;
+    }
+    .box_header {
+        width: 980px;
+        min-height: 40px;
+        padding-bottom: 48px;
+        margin-left: 22px;
+    }
+    .head_right {
+        width: 86%;
+    }
+    .menu_hd li {
+        display: none;
+    }
+    .menu_hd {
+        position: relative;
+        padding-left: 23px;
+        margin-top: 13px;
+        float: right;
+        width: 6%;
+    }
+    .box_search {
+        position: relative;
+        padding-left: 110px;
+        margin-top: 0px;
+        float: left;
+        width: 94%;
+    }
+    .box-2 {
+        float: right;
+    }
+    .menu {
+        display: block;
+        float: right;
+    }
+    .search {
+        background: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgba(224, 224, 224, 0.35);
+        box-sizing: border-box;
+        backdrop-filter: blur(19px);
+        border-radius: 10px;
+        padding-top: 10px;
+        display: block;
+        height: 50px;
+        width: 500px;
+        float: left;
+    }
+    .box-1 img {
+        display: none;
+    }
+    .box_search .box-2 {
+        padding-left: 27px;
+        margin-top: 10px;
+    }
+    .t_search_sub {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-left: 8px;
+    }
+    .t_icon_search {
+        width: 30px;
+        height: 30px;
+        display: block;
+        margin-right: 15px;
+        background-size: cover;
+        margin-left: 10px;
+        background: url(../images/search.png) no-repeat;
+        background-position: center;
+    }
+    .t_icon_exit_search {
+        width: 30px;
+        height: 30px;
+        display: block;
+        float: right;
+        margin-right: 2px;
+        background-size: cover;
+        margin-left: 150px;
+        background: url(../images/exit-search.png) no-repeat;
+        background-position: right;
+    }
+    .t_text_search {
+        display: inline-block;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        width: 238px;
+        height: 21px;
+        background-color: unset !important;
+        border: unset;
+    }
+    button.t_icon_exit_search {
+        border: none;
+    }
+    .home-br-1 {
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+}

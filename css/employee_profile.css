@@ -1,0 +1,1746 @@
+#wrap-content {
+    background: #F4F4F4;
+    padding: 0px 50px;
+}
+
+.main_content {
+    padding-top: 36px;
+    padding-bottom: 40px;
+}
+
+
+/* =====Nội dung ====== */
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    display: flex;
+}
+
+.slick-initialized .slick-slide,
+.slick-initialized .slick-slide>div,
+.slick-initialized .slick-slide div .wrap_person_potential_box,
+.slick-initialized .slick-slide div .wrap_person_potential_box .block {
+    height: 100%;
+}
+
+.wrap_person_potential_box .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* css cho popup confirm */
+
+.popup_use_point,
+.popup_empty_point {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 99;
+    display: none;
+}
+
+.popup_bg {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.popup_content {
+    width: 700px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin: auto;
+    padding: 30px 143px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+}
+
+.popup_content .yellow {
+    color: #FFAE28;
+}
+
+.popup_content .title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1976D2;
+}
+
+.popup_content .content {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C1D20;
+    text-align: center;
+}
+
+.popup_content .confirm_button {
+    margin-top: 35px;
+    width: fit-content;
+}
+
+.popup_content .confirm_button button {
+    width: 144px;
+    padding: 10px 0px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 0px 25px;
+}
+
+.popup_empty_point .popup_content .confirm_button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.popup_content .confirm_button button.yes {
+    background: #1976D2;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.popup_empty_point .popup_content .confirm_button .ok {
+    background: #1976D2;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.popup_content .confirm_button button.no {
+    background: #FFFFFF;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #1976D2;
+}
+
+
+/* het css cho popup confirm */
+
+
+/* .box-left {
+width: 72%;
+} */
+
+
+/* css cho danh gia sao */
+
+.rate_star {
+    display: flex;
+    justify-content: center;
+}
+
+.box-1 .rate_star {
+    margin-top: 15px;
+}
+
+.score-wrap {
+    display: inline-block;
+    position: relative;
+    /* height: 19px; */
+}
+
+.score .stars-active {
+    color: #FFAE28;
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.score .stars-inactive {
+    color: #C4C4C4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-text-stroke: initial;
+    /* overflow: hidden; */
+}
+
+.wrap_person_potential_box .score-wrap i {
+    font-size: 12px;
+}
+
+.box-1 .score-wrap i {
+    font-size: 24px;
+}
+
+
+/* het css cho danh gia sao */
+
+.box-1 {
+    /* grid-column-start: span 2;
+grid-row-start: 1; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3
+}
+
+.box-2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 9;
+}
+
+
+/* box-3 */
+
+#wr-contact {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#wr-feedback {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+#wr-sidebar-search {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.person_potential {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 9;
+    grid-row-end: 10;
+}
+
+#wr-content {
+    display: grid;
+    /* grid-template-columns: 36% 36% 28%; */
+    grid-gap: 0px 18px;
+    grid-template-columns: auto auto 30%;
+}
+
+.box-1 {
+    display: flex;
+    background: #FFFFFF;
+    /* flex-basis: 72%; */
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 110%;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.image>p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* 1C1D20 */
+    color: #1C1D20;
+}
+
+.wrap-box {
+    position: relative;
+}
+
+.star_hot {
+    object-fit: fill;
+    position: absolute;
+    top: 11px;
+    right: 33px;
+    background: none;
+    border: none
+}
+
+.info>.option {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background: none;
+    border: none
+}
+
+.bar_address {
+    align-items: center;
+}
+
+.bar_address .active {
+    color: #1C1D20;
+    font-weight: 500;
+}
+
+.border_radius {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1976D2;
+    border-radius: 999em;
+    overflow: hidden;
+}
+
+.border_radius>img {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 30px auto;
+    grid: 8px 8px;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 30px auto auto;
+    grid: 8px 8px;
+}
+
+.info {
+    padding-left: 35px;
+}
+
+.info .information {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(25, 118, 210, 0.45);
+    border-radius: 20px;
+    position: absolute;
+    top: 45px;
+    right: 92px;
+    display: none;
+}
+
+.info .information a {
+    padding: 7px 10px;
+}
+
+.info .name_helper {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    ;
+    /* 1C1D20 */
+    color: #1C1D20;
+}
+
+.name_helper .view_status {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    background: #1976D2;
+    padding: 3px 5px;
+    color: #FFFFFF;
+}
+
+.subtract {
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+.subtract_img {
+    width: 22px;
+    height: 22px;
+    margin-left: 3px;
+}
+
+.subtract_img>img {
+    width: 25px;
+    height: 25px;
+}
+
+.address p,
+.money>.from_to>p,
+.exp_info>p,
+.date>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    ;
+    color: #666666;
+}
+
+.star>p {
+    font-weight: 400;
+    font-size: 16px;
+    /* identical to box height */
+    ;
+    /* 1C1D20 */
+    color: #1C1D20;
+    margin-top: 2px;
+}
+
+.star.grid-2>img {
+    margin-left: -3px;
+}
+
+.job>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    ;
+    /* 1C1D20 */
+    color: #1C1D20;
+}
+
+.chieu {
+    display: flex;
+}
+
+.name_job {
+    width: fit-content;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    ;
+    /* 1C1D20 */
+    color: #1C1D20;
+    white-space: pre;
+}
+
+.job_detail {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1px;
+    padding-left: 16px;
+}
+
+.job_detail>span {
+    background: #EFEFEF;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    ;
+    /* Màu chính */
+    color: #1976D2;
+    padding: 4px 9px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+
+/* Box-2  */
+
+.box-2 {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px 70px 22px 30px;
+    margin-bottom: 55px;
+}
+
+.self,
+.calendar,
+.exp,
+.skill {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 30px auto auto;
+}
+
+.self-1,
+.calendar-1,
+.exp-1,
+.skill-1 {
+    grid-row-start: span 1;
+    grid-column-start: span 1;
+}
+
+.self-2,
+.calendar-2,
+.exp-2,
+.skill-2 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    padding-left: 13px;
+}
+
+.calendar-3,
+.exp-3,
+.skill-3,
+.self-3 {
+    grid-row-start: 2;
+    grid-column-start: span 3;
+    padding-left: 42px;
+    padding-top: 20px;
+}
+
+.self .wrap {
+    padding-top: 8px;
+}
+
+.self .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1976D2;
+    margin-top: 6px;
+}
+
+.self .detail {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    /* or 22px */
+    ;
+    color: #000000;
+}
+
+.calendar {
+    margin-bottom: 30px;
+}
+
+.calendar .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1976D2;
+    margin-top: 5px;
+}
+
+.work_day {
+    border-bottom: 1px dashed #000000;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    margin-bottom: 14px;
+}
+
+.work_day>.day>.grid-2>.active span {
+    color: #1976D2;
+}
+
+.work_day>.day>.grid-2>.active span {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-2 .chose,
+.time_work {
+    margin-top: 5px;
+}
+
+.time_work>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    ;
+    /* 1C1D20 */
+    color: #1C1D20;
+}
+
+.grid-2 .radius {
+    margin-left: 20px;
+}
+
+.grid-2 .boder-circle {
+    width: 22px;
+    height: 22px;
+    background: #FFFFFF;
+    /* C4C4C4 */
+    border: 1.5px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.work_day>.day>.grid-2>.non_active>span {
+    width: 32px;
+    height: 32px;
+    background: #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time_no_work {
+    margin-top: 5px;
+}
+
+.time_no_work>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: right;
+    /* 666666 */
+    color: #666666;
+}
+
+
+/* 
+.exp {
+margin-bottom: 30px;
+} */
+
+.exp>img,
+.skill>img {
+    width: 30px;
+    height: 30px;
+}
+
+.exp .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    /* Màu chính */
+    color: #1976D2;
+    margin-top: 5px;
+}
+
+.exp .exp_detail {
+    font-size: 16px;
+    line-height: 135%;
+    /* or 22px */
+    ;
+    /* 1C1D20 */
+    color: #1C1D20;
+}
+
+.skill .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    /* Màu chính */
+    color: #1976D2;
+    margin-top: 5px;
+}
+
+.main_skill {
+    display: grid;
+    grid: 20px 0px;
+    grid-template-columns: 50% 50%;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.main_skill>li {
+    padding-bottom: 20px;
+    margin-left: 13px;
+}
+
+.main_skill>li span {
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.main_skill>li>img {
+    margin-top: -4px;
+}
+
+
+/* Kết thúc box 2 */
+
+
+/* ====siderbar-right=============== */
+
+#wr-contact,
+#wr-feedback {
+    margin-bottom: 28px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.top {
+    padding: 8px 15px 0px 15px;
+}
+
+.bottom {
+    padding: 8px 30px 12px 30px;
+}
+
+#wr-contact .contact-title {
+    border-bottom: 1px solid rgba(25, 118, 210, 0.35);
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1976D2;
+    padding-bottom: 9px;
+}
+
+.contact {
+    padding: 16px 35px 3px 35px;
+}
+
+.mail>img,
+.phone>img {
+    object-fit: fill;
+    line-height: 16px;
+}
+
+.mail,
+.phone {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact>.flex {
+    padding-bottom: 15px;
+}
+
+.email,
+.sdt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    ;
+    color: #000000;
+    padding-left: 8px;
+}
+
+.number_phone,
+.name_email {
+    font-weight: 400;
+    padding-left: 6px;
+    font-size: 14px;
+    line-height: 16px;
+    ;
+    /* 666666 */
+    color: #666666;
+    word-break: break-all;
+}
+
+.see_detail {
+    padding: 6px 29px;
+    background: #1976D2;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #FFFFFF;
+    border: none;
+}
+
+button.active {
+    background: #FFAE28;
+}
+
+#box-3 button.active {
+    background: #FFAE28;
+}
+
+.mail .active {
+    color: #FFAE28 !important;
+}
+
+.phone .active {
+    color: #FFAE28 !important;
+}
+
+#wr-feedback .feedback-title {
+    border-bottom: 1px solid rgba(25, 118, 210, 0.35);
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1976D2;
+    padding: 9px 0px;
+    margin: 0px 15px;
+}
+
+.top-feedback {
+    padding: 0px 0px 13px 0px;
+}
+
+.feedback {
+    max-height: 492px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-top: 8px;
+}
+
+
+/* edit thanh scroll */
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgba(25, 118, 210, 0.55);
+    border-radius: 5px;
+}
+
+
+/* Handle on hover */
+
+
+/* ::-webkit-scrollbar-thumb:hover {
+	background: #555;
+} */
+
+
+/* =================== */
+
+.item {
+    padding: 13px 0px 0px 10px;
+    border-bottom: 1px dashed #000000;
+    box-sizing: border-box;
+    margin: 0px 11px 0px 15px;
+}
+
+.feedback .item .container .image>img {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #1976D2;
+}
+
+.info-feedback {
+    padding-left: 7px;
+}
+
+.info-feedback a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    ;
+    /* 1C1D20 */
+    color: #1C1D20;
+}
+
+.info-feedback .time-feedback span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+    /* C4C4C4 */
+    color: #C4C4C4;
+}
+
+.feedback .item p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    ;
+    /* 1C1D20 */
+    color: #1C1D20;
+    padding-top: 11px;
+    padding-bottom: 22px;
+}
+
+
+/* từ khóa phổ biến  */
+
+#wr-sidebar-search {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px 10px 11px 15px;
+    margin-bottom: 28px;
+}
+
+.siderbar-search {
+    position: relative;
+    width: 100%;
+}
+
+.siderbar-search img {
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.siderbar-search span {
+    border: none;
+    width: 100%;
+    padding-left: 35px;
+    padding-bottom: 17px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #1976D2;
+    text-align: left;
+}
+
+.list-item-search>button,
+.list-item-keywords>button {
+    border: none;
+    background: none;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* 4073AF - Màu chính */
+    color: #4073AF;
+}
+
+.list-item-keywords {
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 16px;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+
+/*================= person_potential================= */
+
+.slick-prev-tag,
+.slick-next-tag {
+    background: none;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    top: 0;
+}
+
+.slick-prev-tag {
+    left: -14px;
+}
+
+.slick-next-tag {
+    right: -14px;
+}
+
+.person_potential {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px 55px 26px 55px;
+}
+
+.person_potential_parent_child {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.block .info_detail .exp {
+    margin-bottom: 0px;
+}
+
+.person_potential .person_potential_parent .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+    /* or 26px */
+    text-align: center;
+    color: #1976D2;
+    padding-bottom: 37px;
+}
+
+.wrap_person_potential_box {
+    padding: 0px 15px;
+}
+
+.image_wrap_person_potential_box {
+    width: 32px;
+}
+
+.person_potential_child_image .subtract .subtract_img {
+    width: 13px;
+    height: 13px;
+}
+
+.block:hover {
+    background: rgba(25, 118, 210, 0.55);
+    border-radius: 10px;
+}
+
+.block:hover .info_detail .name a,
+.block:hover .info_detail .address span,
+.block:hover .info_detail .money span,
+.block:hover .info_detail .money .from_to p,
+.block:hover .see_detail_person_potential a,
+.block:hover .info_detail .exp span {
+    color: #FFFFFF;
+}
+
+.block:hover .job>span {
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+b .wrap_person_potential_child {
+    border: 1px solid rgba(25, 118, 210, 0.55);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.person_potential_child_image {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.person_potential_child_star_prominent {}
+
+.slick_slider .block {
+    max-width: 100%;
+    border: 1px solid rgba(25, 118, 210, 0.55);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px 15px 12px 22px;
+    position: relative;
+}
+
+.image_wrap_person_potential_box {
+    position: absolute;
+    top: 8px;
+    right: 14px;
+    background: none;
+    border: none
+}
+
+.person_potential_child_image .round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person_potential_child_image .round {
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Màu chính */
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.person_potential_child_image .round img {
+    max-width: 110px;
+    max-height: 110px;
+    width: auto;
+    height: auto;
+}
+
+.block .info_detail {
+    padding-left: 14px;
+}
+
+.block .info_detail .address,
+.block .info_detail .money,
+.block .info_detail .exp {
+    display: grid;
+    grid-template-columns: 20px auto;
+}
+
+.block .info_detail .address img,
+.block .info_detail .money img,
+.block .info_detail .exp img {
+    width: 15px;
+    height: 15px;
+}
+
+.block .info_detail .name a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    /* Màu chính */
+    color: #1976D2;
+}
+
+.block .info_detail .address span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    /* 1C1D20 */
+    color: #1C1D20;
+}
+
+.block .info_detail .money .from_to p,
+.block .info_detail .exp span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.block .job {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 9px;
+    padding-bottom: 47px;
+}
+
+.block .job>span {
+    background: #EFEFEF;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    ;
+    /* Màu chính */
+    color: #1976D2;
+    padding: 4px 9px;
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+
+.see_detail_person_potential {
+    text-align: right;
+}
+
+.see_detail_person_potential a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* FFAE28 */
+    color: #FFAE28;
+    text-align: right;
+}
+
+
+/* =========================================================================== */
+
+
+/* MAN 1520 */
+
+@media (min-width:1520px) {
+    #wrap-content {
+        padding: 0px 127px;
+    }
+    .box-1 {
+        padding-left: 40px;
+    }
+    .box-1 .info .information {
+        display: none;
+    }
+    #wr-contact {
+        margin-bottom: 18px;
+    }
+    #wr-feedback {
+        margin-bottom: 20px;
+    }
+    .image_wrap_person_potential_box {
+        width: 28px;
+    }
+    .subtract_img {
+        width: 25px;
+        height: 25px;
+    }
+    .subtract_img>img {
+        width: 25px;
+        height: 25px;
+    }
+    .luong_co_dinh {
+        display: none;
+    }
+    .person_potential_child_image {
+        margin: 0px;
+    }
+}
+
+
+/* =========================================================================== */
+
+
+/* MAN 10024 */
+
+@media (max-width:1365px) {
+    #wrap-content {
+        padding: 0px 40px;
+    }
+    .box-1 {
+        padding-left: 14px;
+        padding-right: 19px;
+    }
+    .box-1 .info .information {
+        display: none;
+    }
+    .border_radius {
+        width: 162px;
+        height: 162px;
+    }
+    .border_radius>img {
+        max-width: 162px;
+        max-height: 162px;
+    }
+    .contact {
+        padding: 16px 6px 3px 6px;
+    }
+    .bottom {
+        padding: 0px 15px 12px 15px;
+    }
+    .top-feedback {
+        padding: 0px 0px 9px 0px;
+    }
+    #wr-feedback .feedback-title {
+        margin: 0px 8px;
+    }
+    .list-item-search>button,
+    .list-item-keywords>button {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        /* identical to box height */
+        /* Màu chính */
+        color: #1976D2;
+    }
+    .list-item-keywords {
+        padding: 4px 9px 8px 9px;
+    }
+    .item {
+        margin: 0px 4px 0px 8px;
+        padding: 8px 0px 0px 3px;
+    }
+    .box-2 {
+        padding: 20px 33px 22px 32px;
+    }
+    .info {
+        padding-left: 16px;
+    }
+    .wrap {
+        padding-left: 7px;
+    }
+    .person_potential_child_image .round>img {
+        max-width: 71px;
+        max-height: 71px;
+    }
+    .person_potential_child_image .round {
+        width: 71px;
+        height: 71px;
+    }
+    .person_potential {
+        padding: 20px 36px 26px 36px;
+    }
+    .slick-next-tag {
+        right: -24px;
+    }
+    .slick-prev-tag {
+        left: -24px;
+    }
+    .wrap_person_potential_box {
+        padding: 0px 5px;
+    }
+    .slick_slider .block {
+        padding: 20px 10px 12px 14px;
+    }
+    .block .info_detail .name a {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        /* Màu chính */
+        color: #1976D2;
+    }
+    .block .info_detail {
+        padding-left: 5px;
+    }
+    .image_wrap_person_potential_box {
+        top: 6px;
+        right: 11px;
+    }
+    .block .job {
+        padding-bottom: 29px;
+    }
+    .block .info_detail .address span,
+    .block .info_detail .money .from_to p,
+    .block .info_detail .exp span {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        /* or 114% */
+    }
+    .block .job>span {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .see_detail_person_potential a {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .image_wrap_person_potential_box {
+        width: 21px;
+    }
+    .subtract {
+        margin-top: 14px;
+        margin-bottom: 4px;
+    }
+}
+
+
+/* =========================================================================== */
+
+
+/* Man 768 */
+
+@media (max-width :1023px) {
+    .wrap_person_potential_box .score-wrap i {
+        font-size: 7px;
+    }
+    #wrap-content {
+        padding: 0px 24px;
+    }
+    #wr-content {
+        grid-gap: 0px 10px;
+    }
+    .box-1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #wr-contact {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #wr-feedback {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    .box-1 {
+        padding-left: 31px;
+        padding-right: 19px;
+        width: 100%;
+    }
+    .box-left {
+        width: 100%;
+    }
+    .grid-2 {
+        grid-template-columns: 26px auto;
+    }
+    .grid-3 {
+        grid-template-columns: 26px auto auto;
+    }
+    .subtract {
+        margin-top: 10px;
+        margin-bottom: 4px;
+    }
+    .info>.option {
+        width: 26px;
+    }
+    .star_hot {
+        width: 24px;
+    }
+    .info {
+        padding-left: 20px;
+    }
+    .border_radius {
+        width: 144px;
+        height: 144px;
+    }
+    .border_radius>img {
+        max-width: 144px;
+        max-height: 144px;
+    }
+    .box-2 {
+        padding: 20px 18px 48px 20px;
+    }
+    .top {
+        padding: 8px 11px 0px 11px;
+    }
+    .contact {
+        padding: 16px 0px 3px 0px;
+    }
+    .see_detail {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        /* FFFFFF */
+        color: #FFFFFF;
+    }
+    .siderbar-search span {
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 20px;
+        /* identical to box height */
+        /* Màu chính */
+        color: #1976D2;
+    }
+    .wrap .detail {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 135%;
+    }
+    .work_day>.day>.grid-2>.active span,
+    .work_day>.day>.grid-2>.non_active>span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .time_work>p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .exp .wrap .exp_detail {
+        font-size: 14px;
+        line-height: 135%;
+    }
+    .siderbar-search span {
+        padding-left: 25px;
+    }
+    .main_skill>li span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .person_potential_parent .title {
+        font-weight: 700;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .person_potential {
+        padding: 20px 10px 26px 10px;
+    }
+    .slick-next-tag {
+        right: -10px;
+        width: 26px;
+    }
+    .slick-prev-tag {
+        left: -10px;
+        width: 26px;
+        /* height: 26px; */
+    }
+    .person_potential_child_image .round>img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .person_potential_child_image .round {
+        width: 50px;
+        height: 50px;
+    }
+    .image_wrap_person_potential_box {
+        width: 16px;
+    }
+    .slick_slider .block {
+        padding: 14px 3px 12px 3px;
+    }
+    .block .info_detail .name a {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .block .info_detail .address span,
+    .block .info_detail .money .from_to p,
+    .block .info_detail .money .from_to p span,
+    .block .info_detail .exp span {
+        font-size: 13px;
+        line-height: 16px;
+        ;
+    }
+    .block .job>span {
+        font-size: 10px;
+    }
+    .see_detail_person_potential a {
+        font-size: 12px;
+    }
+    .block .job {
+        padding-bottom: 10px;
+    }
+    .calendar-3,
+    .exp-3,
+    .skill-3,
+    .self-3 {
+        padding-left: 30px;
+        padding-top: 17px;
+    }
+    .person_potential_child_image .subtract .subtract_img {
+        width: 13px;
+        height: 13px;
+    }
+}
+
+
+/* ================================================================================== */
+
+
+/* MÀN 375 */
+
+@media (max-width:767px) {
+    #wrap-content {
+        padding: 0px 16px;
+    }
+    #wr-content {
+        grid-gap: 0px 10px;
+    }
+    .box-2 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 8;
+        margin-bottom: 30px;
+    }
+    #wr-contact {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #wr-feedback {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 9;
+        grid-row-end: 10;
+    }
+    #wr-sidebar-search {
+        grid-row-start: 10;
+        grid-row-end: 11;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .box-1 {
+        display: block;
+    }
+    .box-1 .image {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .border_radius {
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .border_radius>img {
+        max-width: 100px;
+        min-width: 100px;
+        max-height: 100px;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    .image>p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #1C1D20;
+        padding-top: 4px;
+    }
+    .info .name_helper {
+        display: block;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        text-align: center;
+        color: #1C1D20;
+        padding: 15px 0px;
+    }
+    .info {
+        padding-left: 0;
+    }
+    .address p,
+    .address p>span,
+    .money>.from_to>p,
+    .money>.from_to>p>span,
+    .date>p,
+    .date>p>span,
+    .star>p,
+    .job>p,
+    .exp_info>p,
+    .exp_info>p>span,
+    .name_job {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .star>p {
+        margin-top: 4px;
+    }
+    .job_detail>span {
+        font-size: 12px;
+        line-height: 14px
+    }
+    .job_detail {
+        padding-left: 0px;
+        display: initial;
+    }
+    .chieu {
+        display: block;
+        font-size: 0px;
+        line-height: 0px;
+    }
+    .job_detail>span {
+        display: inline-block;
+        margin-bottom: 8px;
+    }
+    .calendar-3,
+    .exp-3,
+    .skill-3,
+    .self-3 {
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+    .self .title,
+    .calendar .title,
+    .calendar .title,
+    .skill .title {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .main_skill {
+        grid-template-columns: 100%;
+    }
+    .item {
+        margin: 0px 14px 0px 18px;
+        padding: 8px 0px 0px 3px;
+    }
+    #wr-feedback .feedback-title {
+        margin: 0px 18px;
+    }
+    .self,
+    .calendar,
+    .exp,
+    .skill {
+        grid-template-columns: 18px auto auto;
+    }
+    .exp>img,
+    .skill>img {
+        width: 18px;
+        height: 18px;
+    }
+    .skill .title,
+    .calendar .title,
+    .exp .title {
+        margin: 0;
+    }
+    .person_potential_child_image .round {
+        width: 70px;
+        height: 70px;
+    }
+    .person_potential_child_image .round>img {
+        max-width: 70px;
+        max-height: 70px;
+    }
+    .image_wrap_person_potential_box {
+        width: 22px;
+    }
+    .wrap_person_potential_box {
+        padding: 5px 30px;
+    }
+    .slick_slider .block {
+        padding: 14px 10px 12px 15px;
+    }
+    .siderbar-search span {
+        font-size: 16px;
+    }
+    .person_potential .person_potential_parent .title {
+        font-size: 18px;
+    }
+    .block .info_detail .name a {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .block .info_detail .address span,
+    .block .info_detail .money .from_to p,
+    .block .info_detail .money .from_to p span,
+    .block .info_detail .exp span {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .block .job>span {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .person_potential {
+        padding: 20px 10px 48px 10px;
+    }
+    .see_detail_person_potential a {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .block .job {
+        margin-top: -20px;
+    }
+    .slick-next-tag {
+        right: 10px;
+    }
+    .slick-prev-tag {
+        left: 11px;
+    }
+    .bar_address>span>a {
+        font-size: 14px;
+    }
+    .info>.option {
+        right: 70px;
+    }
+    .popup_content .confirm_button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .popup_content {
+        padding: 15px;
+    }
+    .popup_content .confirm_button button {
+        margin: 5px;
+    }
+}
+
+
+/* =========================================================================== */

@@ -1,0 +1,261 @@
+.main_content {
+    padding-top: 32px;
+    padding-bottom: 48px;
+    padding-left: 163px;
+    padding-right: 163px;
+    background: none;
+}
+
+.box_shadow {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(25, 118, 210, 0.25);
+    padding: 41px 124px;
+}
+
+.box_bg {
+    width: 100%;
+    height: 100%;
+}
+
+.box_content {
+    padding: 90px 253px;
+    width: 792px;
+    margin: auto;
+    background: url('/images/login_employee_bg.png') no-repeat;
+}
+
+.box_title {
+    max-width: 293px;
+}
+
+.box_title .title {
+    color: #FFFFFF;
+    text-transform: none;
+    text-align: left;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.box_title .sub_title {
+    color: #FFFFFF;
+    text-transform: none;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.box_input {
+    margin-top: 60px;
+    padding-left: 10px;
+    max-width: 293px;
+}
+
+.box_input .row_input {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    border: 2px solid transparent;
+    background: linear-gradient(to right, white, white), linear-gradient(to right, #189BD4, #080C0D);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    margin-top: 10px;
+}
+
+.box_input button {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #189BD4, #080C0D);
+    border-radius: 20px;
+    border: none;
+}
+
+.row_input input {
+    border: none;
+    padding-left: 15px;
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.forgot_password {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.forgot_password a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1976D2;
+}
+
+.register {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1C1D20;
+    text-align: center;
+}
+
+.register span a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FA5281;
+}
+
+@media only screen and ( min-width: 1520px) {
+    .main_content {
+        padding-left: 240px;
+        padding-right: 240px;
+    }
+}
+
+@media only screen and ( max-width: 1365px) {
+    .main_content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .box_shadow {
+        padding-left: 68px;
+        padding-right: 68px;
+    }
+    .box_title .title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .box_title .sub_title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and ( max-width: 1023px) {
+    .main_content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .box_shadow {
+        padding: 30px 20px;
+    }
+    .box_title .title {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .box_title .sub_title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .box_content {
+        padding: 77px 183px;
+        width: 602px;
+        margin: auto;
+        background: url('/images/login_employee_bg_tl.png') no-repeat;
+        /* background-size: 100% 100%; */
+    }
+    .box_input {
+        margin-top: 32px;
+    }
+    .box_input .row_input {
+        padding: 4px 20px;
+    }
+    .box_input button {
+        padding: 7px 0px;
+    }
+    .forgot_password {
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .register {
+        margin-top: 9px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .register span {
+        display: block;
+    }
+    .register a {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .row_input input {
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
+
+@media only screen and ( max-width: 767px) {
+    .main_content {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .box_shadow {
+        padding: 0px;
+    }
+    .box_title .title {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .box_title .sub_title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .box_content {
+        padding: 33px 33px;
+        width: 100%;
+        margin: unset;
+        background: url('/images/login_employee_bg_mb.png') no-repeat;
+        background-size: 100% 153px;
+    }
+    .box_title {
+        max-width: 343px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .box_input {
+        margin-top: 60px;
+        padding: 0px;
+        max-width: 343px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .box_input .row_input {
+        padding: 9px 20px;
+    }
+    .box_input button {
+        padding: 12px 0px;
+    }
+    .forgot_password {
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .register {
+        margin-top: 9px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .register span {
+        display: block;
+    }
+    .register a {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

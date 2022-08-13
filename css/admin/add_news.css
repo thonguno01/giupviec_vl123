@@ -1,0 +1,863 @@
+/* css cho dang tin */
+
+.panel-body {
+    padding: 15px 80px;
+}
+
+.form_input .row::after,
+.form_input .row::before {
+    display: none;
+}
+
+.box_content {
+    margin-top: 0px;
+    padding: 15px 20px;
+}
+
+.form_input .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form_input .row .text {
+    font-weight: 600;
+}
+
+.form_input .row .left,
+.form_input .row .right {
+    width: 47%;
+}
+
+.warning {
+    color: red;
+}
+
+.form_input .row label {
+    display: block;
+    font-weight: 600;
+}
+
+.form_input .row label span:first-child {
+    padding-right: 5px;
+}
+
+.form_input .row .center {
+    width: 100%;
+}
+
+.row .center textarea {
+    margin-left: 3%;
+    width: 97%;
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    resize: none;
+}
+
+.form_input .row input,
+.form_input .row select {
+    width: 100%;
+    padding: 10px 18px;
+    background: #FFFFFF;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.form_input .row input:disabled {
+    background-color: #c4c4c4;
+    border: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: none;
+    padding: 0;
+}
+
+input#day_start,
+input#day_close,
+input#profile_birthday {
+    background: url('/images/icon_calendar.svg') no-repeat;
+    background-size: 24px 24px;
+    background-position: calc(100% - 8px) 8px;
+}
+
+.select2-container,
+.block_profile .select2-container {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.select2-container--default .select2-selection--single,
+.block_profile .select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple,
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    background: #FFFFFF;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: fit-content;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 20px;
+    z-index: 10;
+    background: url('/images/arrow_bottom.svg') no-repeat;
+    background-position: calc(100% - 16px) 45%;
+}
+
+.select2-container--default .select2-selection--multiple,
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    padding: 8px 20px;
+}
+
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--single,
+.block_profile .select2-container--default.select2-container--open.select2-container--below .select2-selection--single,
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
+    border-radius: 10px;
+    position: relative;
+    z-index: 1052;
+    background: #FFFFFF;
+}
+
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--single,
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple .block_post,
+.block_profile .select2-container--default.select2-container--open.select2-container--above .select2-selection--single,
+.block_profile .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    z-index: 1052;
+    background: #FFFFFF;
+}
+
+.select2-results {
+    max-height: 50vh;
+    overflow: auto;
+}
+
+.select2-results__option {
+    padding: 6px 20px;
+    background: none;
+    z-index: 1051;
+}
+
+.select2-results__option:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background: none;
+    color: #1976D2;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice,
+.block_profile .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.block_profile .select2-container--default .select2-selection--multiple .select2-selection__choice__display,
+.select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+    font-size: 16px;
+    line-height: 19px;
+    color: #1976D2;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice,
+.block_profile .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    border: none;
+    border-radius: 10px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    left: unset;
+    right: 5px;
+    border: none;
+    color: #1976D2;
+    font-size: 25px;
+    font-weight: 100;
+    background: url('/images/close_icon_blue.svg');
+    width: 13px;
+    height: 19px;
+    background-position: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.select2-dropdown--below,
+.block_profile .select2-dropdown--below {
+    background: #FFFFFF;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 8px;
+    margin-top: -16px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-bottom: 5px;
+}
+
+.select2-dropdown--above,
+.block_profile .select2-dropdown--above {
+    background: #FFFFFF;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-top: 5px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove span,
+.block_profile .select2-container--default .select2-selection--multiple .select2-selection__choice__remove span {
+    display: none;
+}
+
+.select2-container--default .select2-results>.select2-results__options,
+.block_profile .select2-container--default .select2-results>.select2-results__options {
+    max-height: unset;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow,
+.block_profile .select2-container--default .select2-selection--single .select2-selection__arrow {
+    display: none;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered,
+.block_profile .select2-container .select2-selection--single .select2-selection__rendered {
+    padding: 0px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable,
+.block_profile .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {}
+
+.select2-container--default .select2-results__option--selected,
+.block_profile .select2-container--default .select2-results__option--selected {
+    background: none;
+    font-weight: 600;
+    color: #1976D2;
+    background: #FFFFFF;
+    z-index: 1051;
+}
+
+::-webkit-scrollbar-track,
+.block_profile ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    /* background-color: #F5F5F5; */
+}
+
+::-webkit-scrollbar,
+.block_profile ::-webkit-scrollbar {
+    width: 6px;
+    /* background-color: #F5F5F5; */
+}
+
+::-webkit-scrollbar-thumb,
+.block_profile ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+    background-color: #1976D2;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder:first-child,
+.block_profile .select2-container--default .select2-selection--single .select2-selection__placeholder:first-child {
+    font-size: 16px;
+    line-height: 19px;
+    font-style: italic;
+}
+
+.select2-container .select2-search--inline .select2-search__field,
+.block_profile .select2-container .select2-search--inline .select2-search__field {
+    margin: 0px;
+    vertical-align: middle;
+    height: 23px;
+}
+
+.sal_opt {
+    display: inline-flex;
+    background: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    padding: 20px 0px;
+    padding-bottom: 0px;
+}
+
+.sal_opt .option {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 4px 10px;
+    border: 2px solid lightgrey;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#static_sal_btn:checked:checked~.static_sal_btn,
+#dynamic_sal_btn:checked:checked~.dynamic_sal_btn {
+    border-color: #1976D2;
+    background: #1976D2;
+}
+
+.sal_opt .option span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+}
+
+#static_sal_btn:checked:checked~.static_sal_btn span,
+#dynamic_sal_btn:checked:checked~.dynamic_sal_btn span {
+    color: #fff;
+}
+
+.form_input .row_sal .sal_from,
+.form_input .row_sal .sal_to,
+.form_input .row_sal #static {
+    position: relative;
+}
+
+.form_input .row_sal {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form_input .row_sal .left {
+    width: 50%;
+}
+
+.form_input .dynamic_sal .left {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form_input .row_sal .right {
+    width: 20%;
+}
+
+.form_input .row_sal .middle {
+    width: 6%;
+    text-align: center;
+    font-style: italic;
+}
+
+.form_input .row_sal input,
+.form_input .row_sal select {
+    width: 100%;
+    padding: 10px 18px;
+    background: #FFFFFF;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.left .text span {
+    position: absolute;
+    top: 29%;
+    right: 15px;
+    color: #1976D2;
+}
+
+.row_sal .select2-container {
+    margin-top: 0px;
+}
+
+.form_input .row_sal {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.table_schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+.table_schedule input::-webkit-input-placeholder {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #c4c4c4;
+}
+
+.table_schedule .schedule_row {
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px dashed #1C1D20;
+    box-sizing: border-box;
+    padding: 10px 0px;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+    padding-left: 40px;
+}
+
+.container input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 14%;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1.5px solid #C4C4C4;
+}
+
+.container:hover .checkmark {
+    background: #ccc;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container .checkmark:after {
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.container input:checked~.checkmark {
+    background: rgba(25, 118, 210, 0.55);
+    border: none;
+}
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+.col_1 .date {
+    display: flex;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1976D2;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 50%;
+    /* padding: 7px 7px; */
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule_row .col_1 {
+    width: 12%;
+}
+
+.schedule_row .col_2 span,
+.schedule_row .col_3 span {
+    width: 15%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.schedule_row .col_2 button,
+.schedule_row .col_3 button {
+    width: 10%;
+}
+
+.schedule_row .col_2 input,
+.schedule_row .col_3 input {
+    width: 30%;
+}
+
+.col_time {
+    display: flex;
+    justify-content: start;
+    width: 44%;
+    align-items: center;
+}
+
+.col_time input {
+    background: #FFFFFF;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #1C1D20;
+    padding: 5px 5px;
+    font-size: 16px;
+    line-height: 19px;
+    width: 30%;
+    text-align: center;
+}
+
+.col_time button {
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+.schedule_msg {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_skill {
+    margin-top: 20px;
+    padding: 0px 30px;
+}
+
+.box_skill .check_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box_skill .check_box .left,
+.box_skill .check_box .right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_skill .check_box .right label,
+.box_skill .check_box .left label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box_skill .container {
+    padding-left: 30px;
+    min-height: 22px;
+    min-width: 22px;
+}
+
+.box_skill .checkmark {
+    top: 0;
+}
+
+.box_skill .other_skill {
+    display: flex;
+    align-items: center;
+}
+
+.box_skill .other_skill input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 9px 10px;
+    width: 80%;
+    margin-right: 10px;
+}
+
+.box_skill .other_skill input:disabled {
+    background: #C4C4C4;
+    border: none;
+}
+
+.box_skill .other_skill button {
+    background: none;
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.box_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.box_btn button {
+    width: 30%;
+    max-width: 115px;
+    background: none;
+    border: none;
+    margin: 15px;
+}
+
+.box_btn button.update {
+    background: #1976D2;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 5px 0px;
+}
+
+.box_btn button.reset_form {
+    background: #FFFFFF;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #1976D2;
+    padding: 5px 0px;
+}
+
+.login_row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.login_row span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C1D20;
+}
+
+.login_row span a {
+    text-transform: uppercase;
+    padding-left: 3px;
+}
+
+#dynamic .sal_from,
+#dynamic .sal_to {
+    width: 48%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#dynamic input {
+    width: 100%;
+}
+
+#dynamic label {
+    width: 20%;
+    color: #666666;
+}
+
+@media only screen and ( min-width: 1520px) {}
+
+@media only screen and ( max-width: 1365px) {}
+
+@media only screen and ( max-width: 1023px) {
+    .form_register {
+        padding: 50px 16px;
+    }
+    .form_register .form_title {
+        font-size: 28px;
+        line-height: 33px;
+    }
+}
+
+@media only screen and ( max-width: 767px) {
+    #dynamic .sal_from,
+    #dynamic .sal_to {
+        width: 100%;
+        margin: 5px 0px;
+    }
+    #dynamic label {
+        width: 25%;
+    }
+    .left .text span {
+        top: 20%;
+    }
+    .schedule_row .col_2 span,
+    .schedule_row .col_3 span {
+        padding-left: 7px;
+    }
+}
+
+@media only screen and ( max-width: 767px) {
+    .form_input .row {
+        display: block;
+    }
+    .form_input .row .left,
+    .form_input .row .right {
+        width: 100%;
+    }
+    .form_input .row .right {
+        margin-top: 10px;
+    }
+    .form_register .form_title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .form_register .image {
+        width: 90px;
+        height: 90px;
+    }
+    .image input[type=file] {
+        width: 90px;
+        height: 90px;
+        opacity: 0;
+        z-index: 1;
+        position: absolute;
+    }
+    .form_register .image img {
+        width: 95px;
+        height: 95px;
+    }
+    .form_input .row_sal .left {
+        width: 60%;
+    }
+    .form_input .row_sal .right {
+        width: 34%;
+    }
+    .table_schedule .schedule_row {
+        display: block;
+    }
+    .table_schedule .schedule_row .col_1 {
+        float: left;
+        width: 20%;
+    }
+    .table_schedule .schedule_row .col_2 {
+        float: left;
+        width: 80%;
+    }
+    .table_schedule .schedule_row .col_3 {
+        float: left;
+        width: 80%;
+        margin-top: 10px;
+    }
+    .schedule_msg {
+        justify-content: end;
+    }
+    .login_row {
+        display: block;
+    }
+    .login_row span {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .col_1 .container {
+        padding-left: 28px;
+    }
+    .schedule_row .col_2 span,
+    .schedule_row .col_3 span {
+        width: 17%;
+    }
+    .schedule_row .col_2 input,
+    .schedule_row .col_3 input {
+        width: 28%;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__placeholder {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__placeholder:first-child {
+        font-size: 14px;
+        line-height: 16px;
+    }
+     ::-webkit-input-placeholder {
+        font-style: italic;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .table_schedule input::-webkit-input-placeholder {
+        font-style: normal;
+        color: #c4c4c4;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+
+/* css cho ranger slider  */
+
+.rs-container .rs-scale {
+    display: none;
+}
+
+.rs-tooltip {
+    border: none;
+    background: none;
+    padding: 0px;
+    min-width: unset;
+    transform: translate(-50%, -25px);
+}
+
+.rs-container .rs-pointer::after,
+.rs-container .rs-pointer::before {
+    display: none;
+}
+
+.rs-container .rs-pointer {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: -8px;
+}
+
+.rs-container .rs-selected {
+    background: #6EA4DA;
+    border: none;
+}
+
+.rs-container .rs-bg,
+.rs-container .rs-selected {
+    height: 4px;
+}
+
+.rs-container {
+    margin-top: 40px;
+    height: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+
+/* het css cho dang tin */
